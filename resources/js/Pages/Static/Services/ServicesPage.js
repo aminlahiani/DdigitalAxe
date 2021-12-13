@@ -25,12 +25,11 @@ export default function ServicesPage() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                  Faire passer votre projet au niveau supérieur.
                   </h1>
                   <p className="mt-4 text-lg text-white">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                  Notre philosophie, nos valeurs et nos expertises dans le domaine du digital vous offrent notre compréhension en même temps que notre capacité à imaginer les meilleurs moyens pour développer votre productivité,
+                   votre activité en ligne, votre visibilité sur le web et donc votre chiffre d’affaires.
                   </p>
                 </div>
               </div>
@@ -112,21 +111,17 @@ export default function ServicesPage() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                Travailler avec nous est un plaisir
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                Notre philosophie, nos valeurs et nos expertises dans le domaine du digital 
+                vous offrent notre compréhension en même temps que notre capacité à imaginer 
+                les meilleurs moyens pour développer votre productivité, votre activité 
+                en ligne, votre visibilité sur le web et donc votre chiffre d’affaires.
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
-                </p>
+           
                 <Link href="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
+                Demander Un Devis
                 </Link>
               </div>
 
@@ -138,24 +133,15 @@ export default function ServicesPage() {
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 583 95"
-                      className="absolute left-0 w-full block h-95-px -top-94-px"
-                    >
-                      <polygon
-                        points="-30,95 583,95 583,65"
-                        className="text-lightBlue-500 fill-current"
-                      ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                   
+                    <h4 className="text-xl font-bold text-indigo-600">
+                      
+                        Nos experts
                     </h4>
-                    <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                    <p className="text-md font-light mt-2 ">
+                   
+                    une équipe performante a un objectif et des valeurs clairement définis, des méthodes de travail efficaces, un état d’esprit d’excellence et de 
+                    respect mutuel, et une forte implication des membres dans la réussite du projet
                     </p>
                   </blockquote>
                 </div>

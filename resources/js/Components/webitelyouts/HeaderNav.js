@@ -61,13 +61,13 @@ export default function HeaderNav() {
                                             href={route("home")}
                                             active={route().current("home")}
                                         >
-                                            Home
+                                            Accueil
                                         </NavLinkWebsite>
                                         <NavLinkWebsite
                                             href={route("about")}
                                             active={route().current("about")}
                                         >
-                                            About
+                                            A propos
                                         </NavLinkWebsite>
                                         <NavLinkWebsite
                                             href={route("service")}
@@ -89,20 +89,14 @@ export default function HeaderNav() {
                                         </NavLinkWebsite>
                                     </div>
                                 </div>
-                             
                             </div>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <button
                                     type="button"
                                     className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                                 >
-                                  
-                                  Demander un devis
-                                   
-                                 
+                                    Demander un devis
                                 </button>
-
-                              
                             </div>
                         </div>
                     </div>

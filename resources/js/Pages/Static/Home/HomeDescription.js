@@ -42,13 +42,10 @@ function HomeDescription() {
                    
                   </svg>
                   <h4 className="text-xl font-bold text-neutral">
-                    Great for your awesome project
+                  Pourquoi nous choisir ?
                   </h4>
                   <p className="text-md font-light mt-2 text-gray-500">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                  Notre philosophie, nos valeurs et nos expertises dans le domaine du digital vous offrent notre compréhension en même temps que notre capacité à imaginer les meilleurs moyens pour développer votre productivité, votre activité en ligne, votre visibilité sur le web et donc votre chiffre d’affaires
                   </p>
                 </blockquote>
               </div>
@@ -63,11 +60,11 @@ function HomeDescription() {
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
+                      disponibilité
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Notus React comes with a huge number of Fully Coded CSS
-                        components.
+                      Une équipe consacrée à votre projet ,
+                      pour assurer l’atteinte de vos objectifs
                       </p>
                     </div>
                   </div>
@@ -77,11 +74,10 @@ function HomeDescription() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                      dynamique
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                      Une gestion dynamique et proactive de vos projets
                       </p>
                     </div>
                   </div>
@@ -92,10 +88,11 @@ function HomeDescription() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
+                      <h6 className="text-xl mb-1 font-semibold">innovacité</h6>
                       <p className="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                      Des solutions digitales innovantes
+                      et avant-gardistes pour propulser votre business en ligne  
+
                       </p>
                     </div>
                   </div>
@@ -105,11 +102,11 @@ function HomeDescription() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Documentation
+                      créativité
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus React.
+                      Une créativité débordante                                 3
+                       pour vous distinguer de vos concurrents
                       </p>
                     </div>
                   </div>

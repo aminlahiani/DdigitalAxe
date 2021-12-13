@@ -19,9 +19,9 @@ use Inertia\Inertia;
 // website  Pages  route
 
 
-Route::inertia('/', 'Home/Index')->name('home');
-Route::inertia('/about', 'About/Index')->name('about');
-Route::inertia('/services', 'Services/Index')->name('service');
+Route::inertia('/', 'Static/Home/Index')->name('home');
+Route::inertia('/about', 'Static/About/Index')->name('about');
+Route::inertia('/services', 'Static/Services/Index')->name('service');
 Route::inertia('/blog', 'Blog/Index')->name('blog');
 Route::inertia('/contact', 'Contact/Index')->name('contact');
 
