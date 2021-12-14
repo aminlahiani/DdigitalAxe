@@ -31,7 +31,7 @@ Route::inertia('/contact', 'Static/Contact/Index')->name('contact');
 
 
 // admin Pages route
-Route::get('/dashboard/clients', [ClientController::class, 'index'])->name('clients');
+Route::get('/dashboard/clients', [ClientController::class, 'index'])->name('clients')->middleware(['auth', "admin", 'verified']);
 //Route::get('/dashboard/clients', 'App\Http\Controllers\ClientController@index');
 Route::inertia('/dashboard/employees', 'Dashboard/Employees/Index')->name('employees');
 Route::inertia('/dashboard/services', 'Dashboard/Services/Index')->name('services');
