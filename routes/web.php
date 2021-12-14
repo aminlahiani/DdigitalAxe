@@ -23,7 +23,7 @@ Route::inertia('/', 'Static/Home/Index')->name('home');
 Route::inertia('/about', 'Static/About/Index')->name('about');
 Route::inertia('/services', 'Static/Services/Index')->name('service');
 Route::inertia('/blog', 'Blog/Index')->name('blog');
-Route::inertia('/contact', 'Contact/Index')->name('contact');
+Route::inertia('/contact', 'Static/Contact/Index')->name('contact');
 
 
 

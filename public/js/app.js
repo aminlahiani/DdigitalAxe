@@ -5066,7 +5066,7 @@ function HeaderNav() {
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Components_NavLinkWebsite__WEBPACK_IMPORTED_MODULE_2__["default"], {
                     href: route("about"),
                     active: route().current("about"),
-                    children: "A propos"
+                    children: "A Propos"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Components_NavLinkWebsite__WEBPACK_IMPORTED_MODULE_2__["default"], {
                     href: route("service"),
                     active: route().current("service"),
@@ -5078,7 +5078,7 @@ function HeaderNav() {
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Components_NavLinkWebsite__WEBPACK_IMPORTED_MODULE_2__["default"], {
                     href: route("contact"),
                     active: route().current("contact"),
-                    children: "Contact"
+                    children: "Contactez-Nous"
                   })]
                 })
               })]
@@ -6264,183 +6264,6 @@ function NewsLetter() {
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Contact/ContactHero.js":
-/*!***************************************************!*\
-  !*** ./resources/js/Pages/Contact/ContactHero.js ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-function ContactHero() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "absolute top-0 w-full h-full bg-center bg-cover",
-        style: {
-          backgroundImage: "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')"
-        },
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
-          id: "blackOverlay",
-          className: "w-full h-full absolute opacity-75 bg-black"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "container relative mx-auto",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "items-center flex flex-wrap",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "w-full lg:w-6/12 px-4 ml-auto mr-auto text-center",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-              className: "pr-12",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
-                className: "text-white font-semibold text-5xl",
-                children: "Your story starts with us."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                className: "mt-4 text-lg text-white",
-                children: "This is a simple example of a Landing Page you can build using Notus React. It features multiple CSS components based on the Tailwind CSS design system."
-              })]
-            })
-          })
-        })
-      })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
-      className: "pb-20 bg-blueGray-200 -mt-24",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "container mx-auto px-4",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "flex flex-wrap"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-          className: "flex flex-wrap items-center mt-32",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "w-full md:w-5/12 px-4 mr-auto ml-auto",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                className: "fas fa-user-friends text-xl"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
-              className: "text-3xl mb-2 font-semibold leading-normal",
-              children: "Working with us is a pleasure"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-              className: "text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600",
-              children: "Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-              className: "text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600",
-              children: "The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. Just make sure you enable them first via JavaScript."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
-              href: "/",
-              className: "font-bold text-blueGray-700 mt-8",
-              children: "Check Notus React!"
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "w-full md:w-4/12 px-4 mr-auto ml-auto",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-600 ",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                className: "flex-auto p-5 lg:p-10",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
-                  className: "text-2xl text-white font-semibold",
-                  children: "Want to work with us?"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                  className: "leading-relaxed mt-1 mb-4 text-white",
-                  children: "Complete this form and we will get back to you in 24 hours."
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "relative w-full mb-3 mt-8",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
-                    className: "block uppercase text-white text-xs font-bold mb-2",
-                    htmlFor: "full-name",
-                    children: "Full Name"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
-                    type: "text",
-                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
-                    placeholder: "Full Name"
-                  })]
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "relative w-full mb-3",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
-                    className: "block uppercase text-white text-xs font-bold mb-2",
-                    htmlFor: "email",
-                    children: "Email"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
-                    type: "email",
-                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
-                    placeholder: "Email"
-                  })]
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "relative w-full mb-3",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
-                    className: "block uppercase text-white text-xs font-bold mb-2",
-                    htmlFor: "message",
-                    children: "Message"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("textarea", {
-                    rows: "4",
-                    cols: "80",
-                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full",
-                    placeholder: "Type a message..."
-                  })]
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  className: "text-center mt-6",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-                    className: "bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
-                    type: "button",
-                    children: "Send Message"
-                  })
-                })]
-              })
-            })
-          })]
-        })]
-      })
-    })]
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContactHero);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Contact/Index.js":
-/*!*********************************************!*\
-  !*** ./resources/js/Pages/Contact/Index.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Layouts_Website__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/Website */ "./resources/js/Layouts/Website.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _ContactHero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ContactHero */ "./resources/js/Pages/Contact/ContactHero.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-function Index() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Layouts_Website__WEBPACK_IMPORTED_MODULE_0__["default"], {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_ContactHero__WEBPACK_IMPORTED_MODULE_2__["default"], {})
-    })
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
-
-/***/ }),
-
 /***/ "./resources/js/Pages/Dashboard/Blogs/Index.js":
 /*!*****************************************************!*\
   !*** ./resources/js/Pages/Dashboard/Blogs/Index.js ***!
@@ -6711,6 +6534,96 @@ function Index(props) {
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Static/About/AboutContact.js":
+/*!*********************************************************!*\
+  !*** ./resources/js/Pages/Static/About/AboutContact.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+function AboutContact() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("section", {
+      className: "relative block py-24 lg:pt-0 bg-blueGray-800",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        className: "container mx-auto px-4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+          className: "flex flex-wrap justify-center lg:mt-20 mt-20",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            className: "w-full lg:w-6/12 px-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+              className: "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "flex-auto p-5 lg:p-10",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
+                  className: "text-2xl font-semibold",
+                  children: "Voulez-vous travailler avec nous?"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                  className: "leading-relaxed mt-1 mb-4 text-blueGray-500",
+                  children: "Nous vous r\xE9pondrons sous 24 heures au maximum"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                  className: "relative w-full mb-3 mt-8",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
+                    className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
+                    htmlFor: "full-name",
+                    children: "Full Name"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                    type: "text",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
+                    placeholder: "Full Name"
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                  className: "relative w-full mb-3",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
+                    className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
+                    htmlFor: "email",
+                    children: "Email"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                    type: "email",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
+                    placeholder: "Email"
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                  className: "relative w-full mb-3",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
+                    className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
+                    htmlFor: "message",
+                    children: "Message"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("textarea", {
+                    rows: "4",
+                    cols: "80",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full",
+                    placeholder: "Type a message..."
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                  className: "text-center mt-6",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
+                    className: "bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
+                    type: "button",
+                    children: "Send Message"
+                  })
+                })]
+              })
+            })
+          })
+        })
+      })
+    })
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AboutContact);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Static/About/AboutPage.js":
 /*!******************************************************!*\
   !*** ./resources/js/Pages/Static/About/AboutPage.js ***!
@@ -6753,10 +6666,10 @@ function AboutPage() {
                 className: "pr-12",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
                   className: "text-white font-semibold text-5xl",
-                  children: "Your story starts with us."
+                  children: "Mcarre Technologie"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                   className: "mt-4 text-lg text-white",
-                  children: "This is a simple example of a Landing Page you can build using Notus React. It features multiple CSS components based on the Tailwind CSS design system."
+                  children: "Notre objectif est de les accompagner  pas par pas afin de les aider \xE0  se familiariser et bien exploiter les diff\xE9rentes plateformes digitales , leur adh\xE9sion est indispensable , la  r\xE9ussite de votre  projet de transformation digitale doit  \xEAtre men\xE9es par des personnes comp\xE9tentes.."
                 })]
               })
             })
@@ -6795,17 +6708,14 @@ function AboutPage() {
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
                 className: "text-3xl mb-2 font-semibold leading-normal",
-                children: "Working with us is a pleasure"
+                children: "Une entreprise communication digitale de confiance"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                 className: "text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600",
-                children: "Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                className: "text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600",
-                children: "The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. Just make sure you enable them first via JavaScript."
+                children: "Mcarre technologie est l'une des soci\xE9t\xE9s de d\xE9veloppement d'applications Web et mobiles les plus r\xE9put\xE9es de tunisie . mcarre technologie a \xE9t\xE9 fond\xE9 par une \xE9quipe tunisienne et b\xE9n\xE9ficie d\xE9sormais des connaissances, des comp\xE9tences et de l'expertise d'une \xE9quipe multinationale. \xC0 ce titre, nous sommes sp\xE9cialis\xE9s dans le  D\xE9veloppement d\u2019applications web/mobile, , le d\xE9veloppement d'applications mobiles ,  R\xE9f\xE9rencement SEO, Marketing digital , et la conception UI/UX pour les startups et les entreprises clientes."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
                 href: "/",
                 className: "font-bold text-blueGray-700 mt-8",
-                children: "Check Notus React!"
+                children: "Demander Un Devis"
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "w-full md:w-4/12 px-4 mr-auto ml-auto",
@@ -6819,10 +6729,10 @@ function AboutPage() {
                   className: "relative p-8 mb-4",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
                     className: "text-xl font-bold ",
-                    children: "Top Notch Services"
+                    children: "\"Les r\xEAves sont toujours des d\xE9parts.\""
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                     className: "text-md font-light mt-2 ",
-                    children: "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens."
+                    children: "N'h\xE9sitez pas et contactez-nous et nous passerons ensemble au prochain niveau"
                   })]
                 })]
               })
@@ -6871,10 +6781,10 @@ function AboutPage() {
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
                   className: "text-3xl font-semibold",
-                  children: "A growing company"
+                  children: " B\xE9n\xE9ficiez de l'expertise d'une \xE9quipe hautement qualifi\xE9e de d\xE9veloppeurs et de testeurs"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                   className: "mt-4 text-lg leading-relaxed text-blueGray-500",
-                  children: "The extension comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go."
+                  children: "En tant qu'entreprise de d\xE9veloppement Web de confiance, nous vous assurons que chaque projet qui nous est confi\xE9 est initi\xE9 et r\xE9alis\xE9 \xE0 100% en interne. De la planification au lancement, du d\xE9veloppement aux tests, chaque \xE9tape est r\xE9alis\xE9e en interne et avec la plus grande transparence pour le client. Cela nous permet de prendre en charge le d\xE9veloppement, les tests et la production, et nous donne la capacit\xE9 de garantir que toutes les exigences d\xE9finies par le client sont remplies."
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
                   className: "list-none mt-6",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
@@ -6891,7 +6801,7 @@ function AboutPage() {
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
                           className: "text-blueGray-500",
-                          children: "Carefully crafted components"
+                          children: "La cr\xE9ativit\xE9 est la capacit\xE9"
                         })
                       })]
                     })
@@ -6909,7 +6819,7 @@ function AboutPage() {
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
                           className: "text-blueGray-500",
-                          children: "Amazing page examples"
+                          children: "Passer au niveau sup\xE9rieur"
                         })
                       })]
                     })
@@ -6947,10 +6857,10 @@ function AboutPage() {
               className: "w-full lg:w-6/12 px-4",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
                 className: "text-4xl font-semibold",
-                children: "Here are our heroes"
+                children: "Rencontrez notre \xE9quipe"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                 className: "text-lg leading-relaxed m-4 text-blueGray-500",
-                children: "According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record maximum."
+                children: "Nous serons \xE0 votre \xE9coute"
               })]
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -6967,10 +6877,10 @@ function AboutPage() {
                   className: "pt-6 text-center",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
                     className: "text-xl font-bold",
-                    children: "Ryan Tompson"
+                    children: "Amin Lahiani"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                     className: "mt-1 text-sm text-blueGray-400 uppercase font-semibold",
-                    children: "Web Developer"
+                    children: "D\xE9veloppeur web"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                     className: "mt-6",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
@@ -7007,10 +6917,10 @@ function AboutPage() {
                   className: "pt-6 text-center",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
                     className: "text-xl font-bold",
-                    children: "Romina Hadid"
+                    children: "Hedi Hammami"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                     className: "mt-1 text-sm text-blueGray-400 uppercase font-semibold",
-                    children: "Marketing Specialist"
+                    children: "Sp\xE9cialiste en marketing"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                     className: "mt-6",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
@@ -7041,10 +6951,10 @@ function AboutPage() {
                   className: "pt-6 text-center",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
                     className: "text-xl font-bold",
-                    children: "Alexa Smith"
+                    children: "Foued Abid"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                     className: "mt-1 text-sm text-blueGray-400 uppercase font-semibold",
-                    children: "UI/UX Designer"
+                    children: "Responsable trafic et r\xE9f\xE9rencement"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                     className: "mt-6",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
@@ -7081,10 +6991,10 @@ function AboutPage() {
                   className: "pt-6 text-center",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
                     className: "text-xl font-bold",
-                    children: "Jenna Kardi"
+                    children: "Karim Ghariani"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
                     className: "mt-1 text-sm text-blueGray-400 uppercase font-semibold",
-                    children: "Founder and CEO"
+                    children: "Graphic Designer"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                     className: "mt-6",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
@@ -7118,152 +7028,6 @@ function AboutPage() {
             })]
           })]
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("section", {
-        className: "pb-20 relative block bg-blueGray-800",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20",
-          style: {
-            transform: "translateZ(0)"
-          },
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-            className: "absolute bottom-0 overflow-hidden",
-            xmlns: "http://www.w3.org/2000/svg",
-            preserveAspectRatio: "none",
-            version: "1.1",
-            viewBox: "0 0 2560 100",
-            x: "0",
-            y: "0",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("polygon", {
-              className: "text-blueGray-800 fill-current",
-              points: "2560 0 2560 100 0 100"
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-          className: "container mx-auto px-4 lg:pt-24 lg:pb-64",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "flex flex-wrap text-center justify-center",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-              className: "w-full lg:w-6/12 px-4",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
-                className: "text-4xl font-semibold text-white",
-                children: "Build something"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                className: "text-lg leading-relaxed mt-4 mb-4 text-blueGray-400",
-                children: "Put the potentially record low maximum sea ice extent tihs year down to low ice. According to the National Oceanic and Atmospheric Administration, Ted, Scambos."
-              })]
-            })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "flex flex-wrap mt-12 justify-center",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-              className: "w-full lg:w-3/12 px-4 text-center",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                  className: "fas fa-medal text-xl"
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h6", {
-                className: "text-xl mt-5 font-semibold text-white",
-                children: "Excelent Services"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                className: "mt-2 mb-4 text-blueGray-400",
-                children: "Some quick example text to build on the card title and make up the bulk of the card's content."
-              })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-              className: "w-full lg:w-3/12 px-4 text-center",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                  className: "fas fa-poll text-xl"
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
-                className: "text-xl mt-5 font-semibold text-white",
-                children: "Grow your market"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                className: "mt-2 mb-4 text-blueGray-400",
-                children: "Some quick example text to build on the card title and make up the bulk of the card's content."
-              })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-              className: "w-full lg:w-3/12 px-4 text-center",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                  className: "fas fa-lightbulb text-xl"
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
-                className: "text-xl mt-5 font-semibold text-white",
-                children: "Launch time"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                className: "mt-2 mb-4 text-blueGray-400",
-                children: "Some quick example text to build on the card title and make up the bulk of the card's content."
-              })]
-            })]
-          })]
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
-        className: "relative block py-24 lg:pt-0 bg-blueGray-800",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "container mx-auto px-4",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "flex flex-wrap justify-center lg:-mt-64 -mt-48",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-full lg:w-6/12 px-4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "flex-auto p-5 lg:p-10",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
-                    className: "text-2xl font-semibold",
-                    children: "Want to work with us?"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                    className: "leading-relaxed mt-1 mb-4 text-blueGray-500",
-                    children: "Complete this form and we will get back to you in 24 hours."
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                    className: "relative w-full mb-3 mt-8",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
-                      className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
-                      htmlFor: "full-name",
-                      children: "Full Name"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
-                      type: "text",
-                      className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
-                      placeholder: "Full Name"
-                    })]
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                    className: "relative w-full mb-3",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
-                      className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
-                      htmlFor: "email",
-                      children: "Email"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
-                      type: "email",
-                      className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
-                      placeholder: "Email"
-                    })]
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                    className: "relative w-full mb-3",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
-                      className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
-                      htmlFor: "message",
-                      children: "Message"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("textarea", {
-                      rows: "4",
-                      cols: "80",
-                      className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full",
-                      placeholder: "Type a message..."
-                    })]
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: "text-center mt-6",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-                      className: "bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
-                      type: "button",
-                      children: "Send Message"
-                    })
-                  })]
-                })
-              })
-            })
-          })
-        })
       })]
     })
   });
@@ -7284,7 +7048,327 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Layouts_Website__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/Website */ "./resources/js/Layouts/Website.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _AboutPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutPage */ "./resources/js/Pages/Static/About/AboutPage.js");
+/* harmony import */ var _AboutContact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutContact */ "./resources/js/Pages/Static/About/AboutContact.js");
+/* harmony import */ var _AboutPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AboutPage */ "./resources/js/Pages/Static/About/AboutPage.js");
+/* harmony import */ var _OurServices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./OurServices */ "./resources/js/Pages/Static/About/OurServices.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+function Index() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_Layouts_Website__WEBPACK_IMPORTED_MODULE_0__["default"], {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_AboutPage__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_OurServices__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_AboutContact__WEBPACK_IMPORTED_MODULE_2__["default"], {})]
+    })
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Static/About/OurServices.js":
+/*!********************************************************!*\
+  !*** ./resources/js/Pages/Static/About/OurServices.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function OurServices() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "py-12 bg-white ",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "lg:text-center",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
+            className: "text-base text-indigo-600 font-semibold tracking-wide uppercase",
+            children: "Nos Services"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+            className: "mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl",
+            children: "Nos Services"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+            className: "mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto",
+            children: "Notre expertise comprend un ensemble de solutions compl\xE9mentaires pour permettre \xE0 votre entreprise un positionnement performant."
+          })]
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
+      className: "pb-20 relative block bg-blueGray-800",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "container mx-auto px-5 lg:pt-10 lg:pb-30",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "flex flex-wrap  justify-center",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "w-full lg:w-4/12 px-4 text-center",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                className: "fas fa-medal text-xl"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h6", {
+              className: "text-xl mt-5 font-semibold text-indigo-600",
+              children: "Site Web"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "mt-2 mb-4 text-blueGray-400",
+              children: "Nous d\xE9veloppons des sites internet qui associent cr\xE9ativit\xE9, technologie de pointe et facilit\xE9 d\u2019utilisation. Que vous souhaitiez informer, communiquer, vendre ou recruter, Eminence, votre agence de solutions digitales \xE0 Tunis, con\xE7oit votre site sur-mesure."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "w-full lg:w-4/12 px-4 text-center",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                className: "fas fa-poll text-xl"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+              className: "text-xl mt-5 font-semibold text-indigo-600",
+              children: "R\xE9f\xE9rencement Naturel(SEO)"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "mt-2 mb-4 text-blueGray-400",
+              children: "Notre Equipe SEO/SEA, met en place une feuille de route de r\xE9f\xE9rencement qui s\u2019harmonie avec les exigences de votre projet de visibilit\xE9 Une \xE9tude des mots se fixe soigneusement pour rentabiliser la mission de r\xE9f\xE9rencement."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "w-full lg:w-4/12 px-4 text-center",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                className: "fas fa-lightbulb text-xl"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+              className: "text-xl mt-5 font-semibold text-indigo-600",
+              children: "Application Web"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "mt-2 mb-4 text-blueGray-400",
+              children: "Nous d\xE9veloppons des Application web sur mesure, Progressive web apps, applications interactives ou Int\xE9gration API et outils tiers, nous vous proposons la technologie la plus adapt\xE9e \xE0 vos objectifs et \xE0 votre budget."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "w-full lg:w-4/12 px-4 text-center",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                className: "fas fa-lightbulb text-xl"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+              className: "text-xl mt-5 font-semibold text-indigo-600",
+              children: "Application Mobile"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "mt-2 mb-4 text-blueGray-400",
+              children: "Nous d\xE9veloppons des applications mobiles natives sur les plateformes les plus populaires (Android et iOS) conform\xE9ment aux derni\xE8res tendances UX, ainsi que des applications hybrides multiplateformes utilisant React Native ou Flutter ainsi que des jeux mobiles utilisant Unity."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "w-full lg:w-4/12 px-4 text-center",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                className: "fas fa-lightbulb text-xl"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+              className: "text-xl mt-5 font-semibold text-indigo-600",
+              children: "Marketing Digital"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "mt-2 mb-4 text-blueGray-400",
+              children: "Eminence, agence de solutions digitales \xE0 Tunis, exploite des tactiques digitales qui g\xE9n\xE8rent du trafic, optimisent vos chances d\u2019\xEAtre remarqu\xE9 par votre audience cible et vous positionne dans un cycle vertueux d\u2019augmentation votre chiffre d\u2019affaires."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "w-full lg:w-4/12 px-4 text-center",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                className: "fas fa-lightbulb text-xl"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+              className: "text-xl mt-5 font-semibold text-indigo-600",
+              children: "R\xE9seaux sociaux"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "mt-2 mb-4 text-blueGray-400",
+              children: "D\xE9sormais incontournables, les r\xE9seaux sociaux vous offrent la possibilit\xE9 de communiquer plus efficacement avec votre cible et d\u2019acqu\xE9rir de nouveaux clients. Eminence, votre agence digitale \xE0 Tunis, utilise des techniques pionni\xE8res pour b\xE9n\xE9ficier au mieux de ces canaux de communications."
+            })]
+          })]
+        })
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (OurServices);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Static/Contact/ContactHero.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/Pages/Static/Contact/ContactHero.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function ContactHero() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "absolute top-0 w-full h-full bg-center bg-cover",
+        style: {
+          backgroundImage: "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')"
+        },
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+          id: "blackOverlay",
+          className: "w-full h-full absolute opacity-75 bg-black"
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "container relative mx-auto",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "items-center flex flex-wrap",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-full lg:w-6/12 px-4 ml-auto mr-auto text-center",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "pr-12",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
+                className: "text-white font-semibold text-5xl",
+                children: "Contactez-Nous."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+                className: "mt-4 text-lg text-white",
+                children: "Envie d\u2019en savoir plus sur les leviers de web marketing, faites nous part de votre projet. Mcarre Technologie a pour mission de vous accompagner dans le d\xE9veloppement de votre visibilit\xE9 qui pourrait rendre votre business plus performant."
+              })]
+            })
+          })
+        })
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
+      className: "pb-20 bg-blueGray-200 -mt-24",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "container mx-auto px-4",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "flex flex-wrap"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "flex flex-wrap items-center mt-32",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "w-full md:w-5/12 px-4 mr-auto ml-auto",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                className: "fas fa-user-friends text-xl"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+              className: "text-3xl mb-2 font-semibold leading-normal",
+              children: "Travailler avec nous est un plaisir"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600",
+              children: "N'h\xE9sitez pas \xE0 nous contacter si vous avez des questions."
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600",
+              children: "Nous sommes une soci\xE9t\xE9s de d\xE9veloppement d'applications Web et mobiles et  Webmarketing en Tunisie qui s\u2019est d\xE9velopp\xE9 aux fil des ann\xE9es pour vous proposer les meilleures prestations de services qui peuvent exister sur le march\xE9 On vous garantit un travail rigoureux et professionnel ."
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+              href: "/",
+              className: "font-bold text-blueGray-700 mt-8",
+              children: "Demander Un Devis!"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-full md:w-4/12 px-4 mr-auto ml-auto",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-600 ",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                className: "flex-auto p-5 lg:p-10",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
+                  className: "text-2xl text-white font-semibold",
+                  children: "Voulez-vous travailler avec nous?"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+                  className: "leading-relaxed mt-1 mb-4 text-white",
+                  children: "Nous vous r\xE9pondrons sous 24 heures au maximum"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                  className: "relative w-full mb-3 mt-8",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
+                    className: "block uppercase text-white text-xs font-bold mb-2",
+                    htmlFor: "full-name",
+                    children: "Full Name"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
+                    type: "text",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
+                    placeholder: "Full Name"
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                  className: "relative w-full mb-3",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
+                    className: "block uppercase text-white text-xs font-bold mb-2",
+                    htmlFor: "email",
+                    children: "Email"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
+                    type: "email",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
+                    placeholder: "Email"
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                  className: "relative w-full mb-3",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
+                    className: "block uppercase text-white text-xs font-bold mb-2",
+                    htmlFor: "message",
+                    children: "Message"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("textarea", {
+                    rows: "4",
+                    cols: "80",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full",
+                    placeholder: "Type a message..."
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-center mt-6",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+                    className: "bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
+                    type: "button",
+                    children: "Send Message"
+                  })
+                })]
+              })
+            })
+          })]
+        })]
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContactHero);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Static/Contact/Index.js":
+/*!****************************************************!*\
+  !*** ./resources/js/Pages/Static/Contact/Index.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Layouts_Website__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/Website */ "./resources/js/Layouts/Website.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _ContactHero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ContactHero */ "./resources/js/Pages/Static/Contact/ContactHero.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -7294,7 +7378,7 @@ __webpack_require__.r(__webpack_exports__);
 function Index() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Layouts_Website__WEBPACK_IMPORTED_MODULE_0__["default"], {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_AboutPage__WEBPACK_IMPORTED_MODULE_2__["default"], {})
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_ContactHero__WEBPACK_IMPORTED_MODULE_2__["default"], {})
     })
   });
 }
@@ -62532,10 +62616,6 @@ var map = {
 	"./Blog/Index.js": "./resources/js/Pages/Blog/Index.js",
 	"./Blog/NewsLetter": "./resources/js/Pages/Blog/NewsLetter.js",
 	"./Blog/NewsLetter.js": "./resources/js/Pages/Blog/NewsLetter.js",
-	"./Contact/ContactHero": "./resources/js/Pages/Contact/ContactHero.js",
-	"./Contact/ContactHero.js": "./resources/js/Pages/Contact/ContactHero.js",
-	"./Contact/Index": "./resources/js/Pages/Contact/Index.js",
-	"./Contact/Index.js": "./resources/js/Pages/Contact/Index.js",
 	"./Dashboard/Blogs/Index": "./resources/js/Pages/Dashboard/Blogs/Index.js",
 	"./Dashboard/Blogs/Index.js": "./resources/js/Pages/Dashboard/Blogs/Index.js",
 	"./Dashboard/Clients/Index": "./resources/js/Pages/Dashboard/Clients/Index.js",
@@ -62546,10 +62626,18 @@ var map = {
 	"./Dashboard/Index.js": "./resources/js/Pages/Dashboard/Index.js",
 	"./Dashboard/Services/Index": "./resources/js/Pages/Dashboard/Services/Index.js",
 	"./Dashboard/Services/Index.js": "./resources/js/Pages/Dashboard/Services/Index.js",
+	"./Static/About/AboutContact": "./resources/js/Pages/Static/About/AboutContact.js",
+	"./Static/About/AboutContact.js": "./resources/js/Pages/Static/About/AboutContact.js",
 	"./Static/About/AboutPage": "./resources/js/Pages/Static/About/AboutPage.js",
 	"./Static/About/AboutPage.js": "./resources/js/Pages/Static/About/AboutPage.js",
 	"./Static/About/Index": "./resources/js/Pages/Static/About/Index.js",
 	"./Static/About/Index.js": "./resources/js/Pages/Static/About/Index.js",
+	"./Static/About/OurServices": "./resources/js/Pages/Static/About/OurServices.js",
+	"./Static/About/OurServices.js": "./resources/js/Pages/Static/About/OurServices.js",
+	"./Static/Contact/ContactHero": "./resources/js/Pages/Static/Contact/ContactHero.js",
+	"./Static/Contact/ContactHero.js": "./resources/js/Pages/Static/Contact/ContactHero.js",
+	"./Static/Contact/Index": "./resources/js/Pages/Static/Contact/Index.js",
+	"./Static/Contact/Index.js": "./resources/js/Pages/Static/Contact/Index.js",
 	"./Static/Home/Cta": "./resources/js/Pages/Static/Home/Cta.js",
 	"./Static/Home/Cta.js": "./resources/js/Pages/Static/Home/Cta.js",
 	"./Static/Home/HomeDescription": "./resources/js/Pages/Static/Home/HomeDescription.js",

@@ -67,7 +67,7 @@ export default function HeaderNav() {
                                             href={route("about")}
                                             active={route().current("about")}
                                         >
-                                            A propos
+                                            A Propos
                                         </NavLinkWebsite>
                                         <NavLinkWebsite
                                             href={route("service")}
@@ -85,7 +85,7 @@ export default function HeaderNav() {
                                             href={route("contact")}
                                             active={route().current("contact")}
                                         >
-                                            Contact
+                                            Contactez-Nous
                                         </NavLinkWebsite>
                                     </div>
                                 </div>

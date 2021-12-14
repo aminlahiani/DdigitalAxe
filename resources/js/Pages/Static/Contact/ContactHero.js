@@ -21,12 +21,11 @@ function ContactHero() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                  Contactez-Nous.
                   </h1>
                   <p className="mt-4 text-lg text-white">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                  Envie d’en savoir plus sur les leviers de web marketing, faites nous part de votre projet.
+                  Mcarre Technologie a pour mission de vous accompagner dans le développement de votre visibilité qui pourrait rendre votre business plus performant.
                   </p>
                 </div>
               </div>
@@ -47,21 +46,20 @@ function ContactHero() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                Travailler avec nous est un plaisir
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                N'hésitez pas à nous contacter si vous avez des questions.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
+                
+                Nous sommes une sociétés de développement d'applications Web et mobiles et  Webmarketing en Tunisie
+qui s’est développé aux fil des années pour vous proposer les
+meilleures prestations de services qui peuvent exister sur le marché
+On vous garantit un travail rigoureux et professionnel .
                 </p>
                 <Link href="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
+                Demander Un Devis!
                 </Link>
               </div>
 
@@ -69,11 +67,10 @@ function ContactHero() {
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-600 ">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl text-white font-semibold">
-                      Want to work with us?
+                    Voulez-vous travailler avec nous?
                     </h4>
                     <p className="leading-relaxed mt-1 mb-4 text-white">
-                      Complete this form and we will get back to you in 24
-                      hours.
+                    Nous vous répondrons sous 24 heures au maximum
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label
