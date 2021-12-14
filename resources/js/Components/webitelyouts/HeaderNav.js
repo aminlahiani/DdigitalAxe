@@ -79,7 +79,7 @@ export default function HeaderNav() {
                                             href={route("blog")}
                                             active={route().current("blog")}
                                         >
-                                            blog
+                                            Article
                                         </NavLinkWebsite>
                                         <NavLinkWebsite
                                             href={route("contact")}

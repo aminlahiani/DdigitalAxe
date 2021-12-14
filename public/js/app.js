@@ -4836,10 +4836,10 @@ function FooterNav() {
             className: "w-full lg:w-6/12 px-4",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
               className: "text-3xl font-semibold",
-              children: "Let's keep in touch!"
+              children: "Restons en contact!"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
               className: "text-lg mt-0 mb-2 text-blueGray-600",
-              children: "Find us on any of these platforms, we respond 1-2 business days."
+              children: "Retrouvez-nous sur l'une de ces plateformes"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
               className: "mt-6 lg:mb-0 mb-6",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
@@ -4876,32 +4876,32 @@ function FooterNav() {
                 className: "w-full lg:w-4/12 px-4 ml-auto",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
                   className: "block uppercase text-blueGray-500 text-sm font-semibold mb-2",
-                  children: "Useful Links"
+                  children: "Liens utiles"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
                   className: "list-unstyled",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://www.creative-tim.com/presentation?ref=nr-footer",
-                      children: "About Us"
+                      children: "Accueil"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://blog.creative-tim.com?ref=nr-footer",
-                      children: "Blog"
+                      children: "A Propos"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://www.github.com/creativetimofficial?ref=nr-footer",
-                      children: "Github"
+                      children: "Article"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://www.creative-tim.com/bootstrap-themes/free?ref=nr-footer",
-                      children: "Free Products"
+                      children: "Produits gratuits"
                     })
                   })]
                 })]
@@ -4909,32 +4909,32 @@ function FooterNav() {
                 className: "w-full lg:w-4/12 px-4",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
                   className: "block uppercase text-blueGray-500 text-sm font-semibold mb-2",
-                  children: "Other Resources"
+                  children: "Autres ressources"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
                   className: "list-unstyled",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://github.com/creativetimofficial/notus-react/blob/main/LICENSE.md?ref=nr-footer",
-                      children: "MIT License"
+                      children: "Nos Services"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://creative-tim.com/terms?ref=nr-footer",
-                      children: "Terms & Conditions"
+                      children: "Contactez-Nous"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://creative-tim.com/privacy?ref=nr-footer",
-                      children: "Privacy Policy"
+                      children: "Demander Un Devis!"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
                       href: "https://creative-tim.com/contact-us?ref=nr-footer",
-                      children: "Contact Us"
+                      children: "Facebook"
                     })
                   })]
                 })]
@@ -5074,7 +5074,7 @@ function HeaderNav() {
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Components_NavLinkWebsite__WEBPACK_IMPORTED_MODULE_2__["default"], {
                     href: route("blog"),
                     active: route().current("blog"),
-                    children: "blog"
+                    children: "Article"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Components_NavLinkWebsite__WEBPACK_IMPORTED_MODULE_2__["default"], {
                     href: route("contact"),
                     active: route().current("contact"),
@@ -6013,252 +6013,6 @@ function VerifyEmail(_ref) {
         })]
       })
     })]
-  });
-}
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Blog/BlogsSection.js":
-/*!*************************************************!*\
-  !*** ./resources/js/Pages/Blog/BlogsSection.js ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-function BlogsSection() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
-      "class": "py-12 md:px-20 sm:px-14 px-6",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        "class": "sm:flex items-center shadow-md",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          "class": "md:px-10 sm:px-5",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-            "class": "text-gray-800 font-bold text-2xl my-2",
-            children: "long established"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            "class": "text-gray-700 mb-2 md:mb-6",
-            children: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that...."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            "class": "flex justify-between mb-2",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-              "class": "font-thin text-sm",
-              children: "May 20th 2020"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-              "class": "sm:block hidden mb-2 text-gray-800 font-bold",
-              children: "Read more"
-            })]
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-            "class": "bg-cover",
-            src: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            alt: ""
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        "class": "mt-6 md:flex space-x-6",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          "class": "shadow-md",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-            src: "https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-            alt: ""
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            "class": "px-4",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-              "class": "mt-3 text-gray-800 text-2xl font-bold my-2",
-              children: "long established"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-              "class": "text-gray-700 mb-2",
-              children: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that...."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              "class": "flex justify-between mt-4",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                "class": "font-thin text-sm",
-                children: "May 20th 2020"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                "class": "mb-2 text-gray-800 font-bold",
-                children: "Read more"
-              })]
-            })]
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          "class": "shadow-md",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-            src: "https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-            alt: ""
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            "class": "px-6",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-              "class": "mt-3 text-gray-800 text-2xl font-bold my-2",
-              children: "long established"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-              "class": "text-gray-700 mb-2",
-              children: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that...."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              "class": "flex justify-between mt-4",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                "class": "font-thin text-sm",
-                children: "May 20th 2020"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                "class": "mb-2 text-gray-800 font-bold",
-                children: "Read more"
-              })]
-            })]
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          "class": "shadow-md",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-            src: "https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-            alt: ""
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            "class": "px-4",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-              "class": "mt-3 text-gray-800 text-2xl font-bold my-2",
-              children: "long established"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-              "class": "text-gray-700 mb-2",
-              children: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that...."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              "class": "flex justify-between mt-4",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                "class": "font-thin text-sm",
-                children: "May 20th 2020"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                "class": "mb-2 text-gray-800 font-bold",
-                children: "Read more"
-              })]
-            })]
-          })]
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        "class": "sm:flex items-center shadow-md mt-10",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-            "class": "bg-cover",
-            src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            alt: ""
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          "class": "md:px-10 sh sm:px-5",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-            "class": "text-gray-800 font-bold text-2xl my-2",
-            children: "long established"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            "class": "text-gray-700 mb-2 md:mb-6",
-            children: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that...."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            "class": "flex justify-between mb-2",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-              "class": "font-thin text-sm",
-              children: "May 20th 2020"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-              "class": "sm:block hidden mb-2 text-gray-800 font-bold",
-              children: "Read more"
-            })]
-          })]
-        })]
-      })]
-    })
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BlogsSection);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Blog/Index.js":
-/*!******************************************!*\
-  !*** ./resources/js/Pages/Blog/Index.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Layouts_Website__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/Website */ "./resources/js/Layouts/Website.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _BlogsSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BlogsSection */ "./resources/js/Pages/Blog/BlogsSection.js");
-/* harmony import */ var _NewsLetter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NewsLetter */ "./resources/js/Pages/Blog/NewsLetter.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-
-
-function Index() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_Layouts_Website__WEBPACK_IMPORTED_MODULE_0__["default"], {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_BlogsSection__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_NewsLetter__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
-    })
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Blog/NewsLetter.js":
-/*!***********************************************!*\
-  !*** ./resources/js/Pages/Blog/NewsLetter.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ NewsLetter)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-/* This example requires Tailwind CSS v2.0+ */
-function NewsLetter() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    className: "bg-gray-50",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
-        className: "text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          className: "block",
-          children: "Ready to Newsletter?"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          className: "block text-indigo-600",
-          children: "Sing up for our newsletter."
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "mt-8 flex lg:mt-0 lg:flex-shrink-0",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "inline-flex rounded-md shadow",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-            type: "email",
-            className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
-            placeholder: "Email"
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "ml-3 inline-flex rounded-md shadow",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-            href: "#",
-            className: "inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700",
-            children: "Notify Me"
-          })
-        })]
-      })]
-    })
   });
 }
 
@@ -7210,6 +6964,220 @@ function OurServices() {
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Static/Blog/BlogsSection.js":
+/*!********************************************************!*\
+  !*** ./resources/js/Pages/Static/Blog/BlogsSection.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+var Blogs = [{
+  image: "https://images.unsplash.com/photo-1599658880436-c61792e70672",
+  title: " Tendances du Marketing Digital ",
+  description: "À deux mois de la clôture de 2020, cette année restera une année unique pour les professionnels du marketing. L’impact de la crise sanitaire liée à la Covid-19 n’a épargné aucun secteur...",
+  create: "May 20th 2020"
+}, {
+  image: "https://immo2.pro/images/wp-images/2016/01/strategie-linkedin-immobilier.jpg",
+  title: "LinkedIn lance des nouvelles",
+  description: "LinkedIn, le réseau professionnel en ligne créé en 2002 introduit plusieurs nouveautés en lançant sa propre version de stories au niveau mondial....",
+  create: "May 20th 2020"
+}, {
+  image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  title: "5 leviers incontournables",
+  description: "Il est aujourd’hui incontournable d’avoir une communication digitale efficace. En effet, cette constante évolution qui couvre plusieurs domaines ...",
+  create: "May 20th 2020"
+}, {
+  image: "https://www.tanit-digital.com/wp-content/uploads/2021/06/Recette-digitale-2021-uai-1440x961.jpeg",
+  title: " entreprises en 2021",
+  description: "C’est la conviction que les outils numériques d’aujourd’hui peuvent profiter à tous si on les utilise de la bonne manière. Tanit Digital, notre société de communication digitale des entreprises en Tunisie..",
+  create: "May 20th 2020"
+}, {
+  image: "https://images.unsplash.com/photo-1616499370260-485b3e5ed653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  title: "Google pénalisera les sites non-https",
+  description: "Après que Google a ajouté un label « non-sécurisé » à la barre d’adresse des sites qui n’utilisent pas le protocole HTTPS, le moteur de recherche annonce ",
+  create: "May 20th 2020"
+}, {
+  image: "https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  title: "Qu’est ce que le HTTPS?",
+  description: "Vous avez certainement entendu parler de ce terme HTTPS ( Hyper Text Transfer Protocol Secure), qui est la version sécurisée du protocole HTTP.",
+  create: "May 20th 2020"
+}, {
+  image: "https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+  title: "stratégie de communication ",
+  description: "Il est aujourd’hui incontournable d’avoir une communication digitale efficace. En effet, cette constante évolution qui couvre plusieurs domaines numériques ont pour but de transmettre. The point of using Lorem Ipsum is that....",
+  create: "May 20th 2020"
+}, {
+  image: "https://images.unsplash.com/photo-1599658880436-c61792e70672",
+  title: " Marketing Digital 2022 ",
+  description: "À deux mois de la clôture de 2020, cette année restera une année unique pour les professionnels du marketing. L’impact de la crise sanitaire liée à la Covid-19 n’a épargné aucun secteur...",
+  create: "May 20th 2020"
+}];
+
+function BlogsSection() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
+      "class": "py-12 md:px-20 sm:px-14 px-6",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        "class": "sm:flex items-center shadow-md",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+          "class": "md:px-10 sm:px-5",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
+            "class": "text-gray-800 font-bold text-2xl my-2",
+            children: "Analyse SEO"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+            "class": "text-gray-700 mb-2 md:mb-6",
+            children: "Pour comprendre l\u2019analyse SEO, jetons un coup d\u2019\u0153il \xE0 l\u2019histoire proche. Vous vous souvenez des annuaires t\xE9l\xE9phoniques ? Les pages jaunes, plus pr\xE9cis\xE9ment, ..."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            "class": "flex justify-between mb-2",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+              "class": "font-thin text-sm",
+              children: "May 20th 2020"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+              "class": "sm:block hidden mb-2 text-gray-800 font-bold",
+              children: "Lire la Suite"
+            })]
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+            "class": "bg-cover",
+            src: "https://www.markentive.com/hubfs/agence-seo.jpg",
+            alt: ""
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        "class": "mt-4 grid grid-cols-4 gap-4 space-x-4",
+        children: Blogs.map(function (blog) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            "class": "shadow-md  ",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+              src: blog.image,
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+              "class": "px-4",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
+                "class": "mt-3 text-gray-800 text-2xl font-bold my-2",
+                children: blog.title
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                "class": "text-gray-700 mb-2",
+                children: blog.description
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                "class": "flex justify-between mt-4",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                  "class": "font-thin text-sm",
+                  children: "May 20th 2020"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                  "class": "mb-2 text-gray-800 font-bold",
+                  children: "Lire la suite"
+                })]
+              })]
+            })]
+          }, blog.name);
+        })
+      })]
+    })
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BlogsSection);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Static/Blog/Index.js":
+/*!*************************************************!*\
+  !*** ./resources/js/Pages/Static/Blog/Index.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Layouts_Website__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/Website */ "./resources/js/Layouts/Website.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _BlogsSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BlogsSection */ "./resources/js/Pages/Static/Blog/BlogsSection.js");
+/* harmony import */ var _NewsLetter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NewsLetter */ "./resources/js/Pages/Static/Blog/NewsLetter.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+function Index() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_Layouts_Website__WEBPACK_IMPORTED_MODULE_0__["default"], {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_BlogsSection__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_NewsLetter__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
+    })
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Static/Blog/NewsLetter.js":
+/*!******************************************************!*\
+  !*** ./resources/js/Pages/Static/Blog/NewsLetter.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ NewsLetter)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+/* This example requires Tailwind CSS v2.0+ */
+function NewsLetter() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    className: "bg-gray-50",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+      className: "max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
+        className: "text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          className: "block",
+          children: "\xCAtes-vous pr\xEAts?"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          className: "block text-indigo-600",
+          children: "Inscrivez-vous \xE0 notre newsletter."
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "mt-8 flex lg:mt-0 lg:flex-shrink-0",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+          className: "inline-flex rounded-md shadow",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+            type: "email",
+            className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
+            placeholder: "Email"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+          className: "ml-3 inline-flex rounded-md shadow",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+            href: "#",
+            className: "inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700",
+            children: "Notify Me"
+          })
+        })]
+      })]
+    })
+  });
+}
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Static/Contact/ContactHero.js":
 /*!**********************************************************!*\
   !*** ./resources/js/Pages/Static/Contact/ContactHero.js ***!
@@ -7305,11 +7273,11 @@ function ContactHero() {
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
                     className: "block uppercase text-white text-xs font-bold mb-2",
                     htmlFor: "full-name",
-                    children: "Full Name"
+                    children: "Nom complet"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
                     type: "text",
                     className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
-                    placeholder: "Full Name"
+                    placeholder: "nom-complet"
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                   className: "relative w-full mb-3",
@@ -7332,12 +7300,12 @@ function ContactHero() {
                     rows: "4",
                     cols: "80",
                     className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full",
-                    placeholder: "Type a message..."
+                    placeholder: "Tapez un message..."
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                   className: "text-center mt-6",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-                    className: "bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
+                    className: "bg-white text-indigo-600 active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
                     type: "button",
                     children: "Send Message"
                   })
@@ -8283,72 +8251,9 @@ function ServicesPage() {
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
         className: "pb-20 bg-blueGray-200 -mt-24",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "container mx-auto px-4",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "flex flex-wrap",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "px-4 py-5 flex-auto",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                      className: "fas fa-award"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h6", {
-                    className: "text-xl font-semibold",
-                    children: "Awarded Agency"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                    className: "mt-2 mb-4 text-blueGray-500",
-                    children: "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough."
-                  })]
-                })
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-full md:w-4/12 px-4 text-center",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "px-4 py-5 flex-auto",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                      className: "fas fa-retweet"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h6", {
-                    className: "text-xl font-semibold",
-                    children: "Free Revisions"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                    className: "mt-2 mb-4 text-blueGray-500",
-                    children: "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious."
-                  })]
-                })
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "pt-6 w-full md:w-4/12 px-4 text-center",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "px-4 py-5 flex-auto",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                      className: "fas fa-fingerprint"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h6", {
-                    className: "text-xl font-semibold",
-                    children: "Verified Company"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                    className: "mt-2 mb-4 text-blueGray-500",
-                    children: "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!"
-                  })]
-                })
-              })
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
             className: "flex flex-wrap items-center mt-32",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
               className: "w-full md:w-5/12 px-4 mr-auto ml-auto",
@@ -8388,7 +8293,7 @@ function ServicesPage() {
                 })]
               })
             })]
-          })]
+          })
         })
       })]
     })
@@ -62610,12 +62515,6 @@ var map = {
 	"./Auth/ResetPassword.js": "./resources/js/Pages/Auth/ResetPassword.js",
 	"./Auth/VerifyEmail": "./resources/js/Pages/Auth/VerifyEmail.js",
 	"./Auth/VerifyEmail.js": "./resources/js/Pages/Auth/VerifyEmail.js",
-	"./Blog/BlogsSection": "./resources/js/Pages/Blog/BlogsSection.js",
-	"./Blog/BlogsSection.js": "./resources/js/Pages/Blog/BlogsSection.js",
-	"./Blog/Index": "./resources/js/Pages/Blog/Index.js",
-	"./Blog/Index.js": "./resources/js/Pages/Blog/Index.js",
-	"./Blog/NewsLetter": "./resources/js/Pages/Blog/NewsLetter.js",
-	"./Blog/NewsLetter.js": "./resources/js/Pages/Blog/NewsLetter.js",
 	"./Dashboard/Blogs/Index": "./resources/js/Pages/Dashboard/Blogs/Index.js",
 	"./Dashboard/Blogs/Index.js": "./resources/js/Pages/Dashboard/Blogs/Index.js",
 	"./Dashboard/Clients/Index": "./resources/js/Pages/Dashboard/Clients/Index.js",
@@ -62634,6 +62533,12 @@ var map = {
 	"./Static/About/Index.js": "./resources/js/Pages/Static/About/Index.js",
 	"./Static/About/OurServices": "./resources/js/Pages/Static/About/OurServices.js",
 	"./Static/About/OurServices.js": "./resources/js/Pages/Static/About/OurServices.js",
+	"./Static/Blog/BlogsSection": "./resources/js/Pages/Static/Blog/BlogsSection.js",
+	"./Static/Blog/BlogsSection.js": "./resources/js/Pages/Static/Blog/BlogsSection.js",
+	"./Static/Blog/Index": "./resources/js/Pages/Static/Blog/Index.js",
+	"./Static/Blog/Index.js": "./resources/js/Pages/Static/Blog/Index.js",
+	"./Static/Blog/NewsLetter": "./resources/js/Pages/Static/Blog/NewsLetter.js",
+	"./Static/Blog/NewsLetter.js": "./resources/js/Pages/Static/Blog/NewsLetter.js",
 	"./Static/Contact/ContactHero": "./resources/js/Pages/Static/Contact/ContactHero.js",
 	"./Static/Contact/ContactHero.js": "./resources/js/Pages/Static/Contact/ContactHero.js",
 	"./Static/Contact/Index": "./resources/js/Pages/Static/Contact/Index.js",

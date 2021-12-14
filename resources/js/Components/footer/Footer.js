@@ -26,9 +26,9 @@ export default function FooterNav() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
+              <h4 className="text-3xl font-semibold">Restons en contact!</h4>
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                Find us on any of these platforms, we respond 1-2 business days.
+              Retrouvez-nous sur l'une de ces plateformes 
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <button
@@ -61,7 +61,7 @@ export default function FooterNav() {
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Useful Links
+                  Liens utiles
                   </span>
                   <ul className="list-unstyled">
                     <li>
@@ -69,7 +69,7 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/presentation?ref=nr-footer"
                       >
-                        About Us
+                         Accueil
                       </a>
                     </li>
                     <li>
@@ -77,7 +77,7 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://blog.creative-tim.com?ref=nr-footer"
                       >
-                        Blog
+                         A Propos
                       </a>
                     </li>
                     <li>
@@ -85,7 +85,8 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.github.com/creativetimofficial?ref=nr-footer"
                       >
-                        Github
+                    
+                      Article
                       </a>
                     </li>
                     <li>
@@ -93,14 +94,14 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/bootstrap-themes/free?ref=nr-footer"
                       >
-                        Free Products
+                        Produits gratuits 
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Other Resources
+                  Autres ressources
                   </span>
                   <ul className="list-unstyled">
                     <li>
@@ -108,7 +109,7 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://github.com/creativetimofficial/notus-react/blob/main/LICENSE.md?ref=nr-footer"
                       >
-                        MIT License
+                      Nos Services
                       </a>
                     </li>
                     <li>
@@ -116,7 +117,7 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/terms?ref=nr-footer"
                       >
-                        Terms & Conditions
+                        Contactez-Nous
                       </a>
                     </li>
                     <li>
@@ -124,7 +125,7 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/privacy?ref=nr-footer"
                       >
-                        Privacy Policy
+                       Demander Un Devis!
                       </a>
                     </li>
                     <li>
@@ -132,7 +133,7 @@ export default function FooterNav() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/contact-us?ref=nr-footer"
                       >
-                        Contact Us
+                        Facebook
                       </a>
                     </li>
                   </ul>

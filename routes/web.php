@@ -22,7 +22,7 @@ use Inertia\Inertia;
 Route::inertia('/', 'Static/Home/Index')->name('home');
 Route::inertia('/about', 'Static/About/Index')->name('about');
 Route::inertia('/services', 'Static/Services/Index')->name('service');
-Route::inertia('/blog', 'Blog/Index')->name('blog');
+Route::inertia('/blog', 'Static/Blog/Index')->name('blog');
 Route::inertia('/contact', 'Static/Contact/Index')->name('contact');
 
 
