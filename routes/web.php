@@ -16,7 +16,7 @@ use Inertia\Inertia;
 |
 */
 
-// website  Pages  route
+// Static  Pages  route
 
 
 Route::inertia('/', 'Static/Home/Index')->name('home');
@@ -28,16 +28,21 @@ Route::inertia('/contact', 'Static/Contact/Index')->name('contact');
 
 
 
-// dashboard Pages route
 
 
+// admin Pages route
 Route::get('/dashboard/clients', [ClientController::class, 'index'])->name('clients');
-
 //Route::get('/dashboard/clients', 'App\Http\Controllers\ClientController@index');
-
 Route::inertia('/dashboard/employees', 'Dashboard/Employees/Index')->name('employees');
 Route::inertia('/dashboard/services', 'Dashboard/Services/Index')->name('services');
-Route::inertia('/dashboard/blogs', 'Dashboard/Blogs/Index')->name('blogs');
+Route::inertia('/dashboard/projects', 'Dashboard/Projects/Index')->name('projects');
+Route::inertia('/dashboard/devis', 'Dashboard/Devis/Index')->name('devis');
+
+// client page Route
+
+//Route::inertia('/dashboard/mesdevis', 'Dashboard/Employees/Index')->name('employees');
+//Route::inertia('/dashboard/mesproject', 'Dashboard/Employees/Index')->name('employees');
+
 
 
 Route::get('/dashboard', function () {

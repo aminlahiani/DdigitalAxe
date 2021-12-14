@@ -1,22 +1,23 @@
 import React from 'react';
 import Authenticated from '@/Layouts/Authenticated';
 import { Head } from '@inertiajs/inertia-react';
-import ClientsTable from '@/Components/Table/ClientsTable';
-import BlogsTable from '@/Components/Table/BlogsTable';
+import ProjectTable from '@/Components/Table/ProjectTable';
 
 function Index(props) {
     return (
         <Authenticated
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Blogs</h2>}
+        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Projects</h2>}
     >
-        <Head title="Blogs" />
+        <Head title="Projects" />
 
         <div className="py-12">
+        <ProjectTable/>
+
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <div className="p-6 bg-white border-b border-gray-200"><BlogsTable/></div>
+                    <div className="p-6 bg-white border-b border-gray-200">cc</div>
                 </div>
             </div>
         </div>

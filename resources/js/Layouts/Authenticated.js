@@ -20,7 +20,9 @@ export default function Authenticated({ auth, header, children }) {
                                 </Link>
                             </div>
 
-                            <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                           
+                            {auth.user.role === "0" ? (
+ <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink href={route('dashboard')} active={route().current('dashboard')}>
                                     Dashboard
                                 </NavLink>
@@ -33,10 +35,28 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink href={route('services')} active={route().current('services')}>
                                     Services
                                 </NavLink>
-                                <NavLink href={route('blogs')} active={route().current('blogs')}>
-                                    Blogs
+                                <NavLink href={route('projects')} active={route().current('projects')}>
+                                    Projects
                                 </NavLink>
-                            </div>
+                                <NavLink href={route('devis')} active={route().current('devis')}>
+                                    Devis
+                                </NavLink>
+                                </div>
+
+                                  ) : auth.user.role === "1" ? (
+                                    <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                                    <NavLink href={route('dashboard')} active={route().current('dashboard')}>
+                                    Dashboard
+                                </NavLink>
+</div>
+                                ) : (
+                                    <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                                    <NavLink href={route('dashboard')} active={route().current('dashboard')}>
+                                    Dashboard
+                                </NavLink>
+</div>
+                                 )}
+                           
                         </div>
 
                         <div className="hidden sm:flex sm:items-center sm:ml-6">
