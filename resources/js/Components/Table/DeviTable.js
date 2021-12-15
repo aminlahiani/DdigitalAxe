@@ -3,15 +3,7 @@ const clinets = [
     {
         id: 1,
     },
-    {
-        id: 2,
-    },
-    {
-        id: 3,
-    },
-    {
-        id: 4,
-    },
+   
   ];
     export default function DeviTable() {
       return (
@@ -22,6 +14,9 @@ const clinets = [
                 <table className="min-w-full divide-y divide-gray-200">
                   <thead className="bg-gray-50">
                   <tr className="h-16 w-full text-sm leading-none text-gray-800">
+                  <th className="font-normal text-left pl-12">
+                      Devi numero
+                      </th>
                          <th className="font-normal text-left pl-12">
                                       Directeur
                                   </th>
@@ -52,13 +47,16 @@ const clinets = [
                                       key={client.id}
                                       className="h-20 text-sm leading-none text-gray-800 bg-white hover:bg-gray-100 border-b border-t border-gray-100"
                                   >
-                                     
+                                      <td className="px-6 py-4 whitespace-nowrap">
+                      <div className="text-sm text-gray-900">Devi  #1</div>
+                
+                    </td>
                                       <td className="pl-12">
                                           <p className="text-sm font-medium leading-none text-gray-800">
-                                              Amin Lahiani
+                                              Ahmed Masmoudi
                                           </p>
                                           <p className="text-xs leading-3 text-gray-600 mt-2">
-                                              aminlahiani@gmailcom
+                                              aahmedmasmoudi@gmailcom
                                           </p>
                                       </td>
                                       <td className="pl-4 cursor-pointer">
@@ -71,7 +69,7 @@ const clinets = [
                                               </div>
                                               <div className="pl-4">
                                                   <p className="font-medium">
-                                                      UX Design{" "}
+                                                      Art Design{" "}
                                                   </p>
                                                   <p className="text-xs leading-3 text-gray-600 pt-2">
                                                       +216 25129708

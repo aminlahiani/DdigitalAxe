@@ -3,15 +3,7 @@ const clinets = [
   {
       id: 1,
   },
-  {
-      id: 2,
-  },
-  {
-      id: 3,
-  },
-  {
-      id: 4,
-  },
+
 ];
   export default function ClientsTable() {
     return (
@@ -60,7 +52,7 @@ const clinets = [
                                             </div>
                                             <div className="pl-4">
                                                 <p className="font-medium">
-                                                    UX Design{" "}
+                                                    Art Design{" "}
                                                 </p>
                                                 <p className="text-xs leading-3 text-gray-600 pt-2">
                                                     +216 25129708
@@ -70,10 +62,10 @@ const clinets = [
                                     </td>
                                     <td className="pl-12">
                                         <p className="text-sm font-medium leading-none text-gray-800">
-                                            Amin Lahiani
+                                            Ahmed Masmoudi
                                         </p>
                                         <p className="text-xs leading-3 text-gray-600 mt-2">
-                                            aminlahiani@gmailcom
+                                            ahmedmasmoudi@gmailcom
                                         </p>
                                     </td>
                                     <td className="pl-12">

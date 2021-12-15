@@ -24,17 +24,7 @@ const people = [
         project: "developpeme site web pour  manelopc"
       },
 
-    {
-      name: 'Foued Abid',
-      title: 'Regional Paradigm Technician',
-      department: 'Optimization',
-      role: 'seo manager',
-      email: 'jane.cooper@example.com',
-      phone : "+216 25129708",
-      image:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-        project: "developpeme site web pour  manelopc"
-      },
+    
 
     // More people...
   ]

@@ -3859,6 +3859,74 @@ function Button(_ref) {
 
 /***/ }),
 
+/***/ "./resources/js/Components/CardStats.js":
+/*!**********************************************!*\
+  !*** ./resources/js/Components/CardStats.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CardStats)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+function CardStats(_ref) {
+  var statSubtitle = _ref.statSubtitle,
+      statTitle = _ref.statTitle,
+      statArrow = _ref.statArrow,
+      statPercent = _ref.statPercent,
+      statPercentColor = _ref.statPercentColor,
+      statDescripiron = _ref.statDescripiron,
+      statIconName = _ref.statIconName,
+      statIconColor = _ref.statIconColor;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+      className: "relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "flex-auto p-4",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+          className: "flex flex-wrap",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            className: "relative w-full pr-4 max-w-full flex-grow flex-1",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
+              className: "text-blueGray-400 uppercase font-bold text-xs",
+              children: statSubtitle
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+              className: "font-semibold text-xl text-blueGray-700",
+              children: statTitle
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            className: "relative w-auto pl-4 flex-initial",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+              className: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full " + statIconColor,
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("i", {
+                className: statIconName
+              })
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+          className: "text-sm text-blueGray-400 mt-4",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+            className: statPercentColor + " mr-2",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("i", {
+              className: statArrow === "up" ? "fas fa-arrow-up" : statArrow === "down" ? "fas fa-arrow-down" : ""
+            }), " ", statPercent, "%"]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+            className: "whitespace-nowrap",
+            children: statDescripiron
+          })]
+        })]
+      })
+    })
+  });
+}
+
+/***/ }),
+
 /***/ "./resources/js/Components/Checkbox.js":
 /*!*********************************************!*\
   !*** ./resources/js/Components/Checkbox.js ***!
@@ -5746,12 +5814,6 @@ __webpack_require__.r(__webpack_exports__);
 /* This example requires Tailwind CSS v2.0+ */
 var clinets = [{
   id: 1
-}, {
-  id: 2
-}, {
-  id: 3
-}, {
-  id: 4
 }];
 function ClientsTable() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
@@ -5806,7 +5868,7 @@ function ClientsTable() {
                         className: "pl-4",
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                           className: "font-medium",
-                          children: ["UX Design", " "]
+                          children: ["Art Design", " "]
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                           className: "text-xs leading-3 text-gray-600 pt-2",
                           children: "+216 25129708"
@@ -5817,10 +5879,10 @@ function ClientsTable() {
                     className: "pl-12",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                       className: "text-sm font-medium leading-none text-gray-800",
-                      children: "Amin Lahiani"
+                      children: "Ahmed Masmoudi"
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                       className: "text-xs leading-3 text-gray-600 mt-2",
-                      children: "aminlahiani@gmailcom"
+                      children: "ahmedmasmoudi@gmailcom"
                     })]
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", {
                     className: "pl-12",
@@ -5884,12 +5946,6 @@ __webpack_require__.r(__webpack_exports__);
 /* This example requires Tailwind CSS v2.0+ */
 var clinets = [{
   id: 1
-}, {
-  id: 2
-}, {
-  id: 3
-}, {
-  id: 4
 }];
 function DeviTable() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
@@ -5907,6 +5963,9 @@ function DeviTable() {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", {
                 className: "h-16 w-full text-sm leading-none text-gray-800",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", {
+                  className: "font-normal text-left pl-12",
+                  children: "Devi numero"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", {
                   className: "font-normal text-left pl-12",
                   children: "Directeur"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", {
@@ -5930,14 +5989,20 @@ function DeviTable() {
               children: clinets.map(function (client) {
                 return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", {
                   className: "h-20 text-sm leading-none text-gray-800 bg-white hover:bg-gray-100 border-b border-t border-gray-100",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("td", {
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", {
+                    className: "px-6 py-4 whitespace-nowrap",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                      className: "text-sm text-gray-900",
+                      children: "Devi  #1"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("td", {
                     className: "pl-12",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                       className: "text-sm font-medium leading-none text-gray-800",
-                      children: "Amin Lahiani"
+                      children: "Ahmed Masmoudi"
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                       className: "text-xs leading-3 text-gray-600 mt-2",
-                      children: "aminlahiani@gmailcom"
+                      children: "aahmedmasmoudi@gmailcom"
                     })]
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", {
                     className: "pl-4 cursor-pointer",
@@ -5953,7 +6018,7 @@ function DeviTable() {
                         className: "pl-4",
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                           className: "font-medium",
-                          children: ["UX Design", " "]
+                          children: ["Art Design", " "]
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                           className: "text-xs leading-3 text-gray-600 pt-2",
                           children: "+216 25129708"
@@ -6034,15 +6099,6 @@ var people = [{
   title: 'Regional Paradigm Technician',
   department: 'Optimization',
   role: 'designer',
-  email: 'jane.cooper@example.com',
-  phone: "+216 25129708",
-  image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-  project: "developpeme site web pour  manelopc"
-}, {
-  name: 'Foued Abid',
-  title: 'Regional Paradigm Technician',
-  department: 'Optimization',
-  role: 'seo manager',
   email: 'jane.cooper@example.com',
   phone: "+216 25129708",
   image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
@@ -6158,6 +6214,91 @@ function EmployeesTable() {
 
 /***/ }),
 
+/***/ "./resources/js/Components/Table/HeaderStats.js":
+/*!******************************************************!*\
+  !*** ./resources/js/Components/Table/HeaderStats.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ HeaderStats)
+/* harmony export */ });
+/* harmony import */ var _CardStats__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../CardStats */ "./resources/js/Components/CardStats.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ // components
+
+
+
+
+function HeaderStats() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "relative bg-lightBlue-600 md:pt-32 pb-32 pt-12",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "px-4 md:px-10 mx-auto w-full",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "flex flex-wrap",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+                statSubtitle: "clients",
+                statTitle: "3",
+                statArrow: "up",
+                statPercent: "3.48",
+                statPercentColor: "text-emerald-500",
+                statDescripiron: "Since last month",
+                statIconName: "far fa-chart-bar",
+                statIconColor: "bg-red-500"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+                statSubtitle: "employees",
+                statTitle: "5",
+                statArrow: "down",
+                statPercent: "3.48",
+                statPercentColor: "text-red-500",
+                statDescripiron: "Since last week",
+                statIconName: "fas fa-chart-pie",
+                statIconColor: "bg-orange-500"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+                statSubtitle: "Services",
+                statTitle: "10",
+                statArrow: "down",
+                statPercent: "1.10",
+                statPercentColor: "text-orange-500",
+                statDescripiron: "Since yesterday",
+                statIconName: "fas fa-users",
+                statIconColor: "bg-pink-500"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+                statSubtitle: "Projects",
+                statTitle: "5",
+                statArrow: "up",
+                statPercent: "12",
+                statPercentColor: "text-emerald-500",
+                statDescripiron: "Since last month",
+                statIconName: "fas fa-percent",
+                statIconColor: "bg-lightBlue-500"
+              })
+            })]
+          })
+        })
+      })
+    })
+  });
+}
+
+/***/ }),
+
 /***/ "./resources/js/Components/Table/ProjectTable.js":
 /*!*******************************************************!*\
   !*** ./resources/js/Components/Table/ProjectTable.js ***!
@@ -6178,10 +6319,6 @@ var clinets = [{
   id: 1
 }, {
   id: 2
-}, {
-  id: 3
-}, {
-  id: 4
 }];
 function ProjectTable() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
@@ -6245,10 +6382,10 @@ function ProjectTable() {
                       className: "pl-4",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                         className: "font-medium",
-                        children: "Soci\xE9te nom"
+                        children: "Art Design"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                         className: "text-xs leading-3 text-gray-600 pt-2",
-                        children: "amin lahiani"
+                        children: "Ahmed Masmoudi"
                       })]
                     })]
                   })
@@ -6347,18 +6484,6 @@ var people = [{
   nom2: "foued  abid",
   nom3: "hedi  abid",
   prix: '200',
-  phone: "+216 25129708",
-  image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-  project: "developpeme site web pour  manelopc"
-}, {
-  name: 'Marketing digital',
-  title: 'Regional Paradigm Technician',
-  department: 'Optimization',
-  role: 'seo manager',
-  nom1: "amin lahiani",
-  nom2: "foued  abid",
-  nom3: "hedi  abid",
-  prix: '100',
   phone: "+216 25129708",
   image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
   project: "developpeme site web pour  manelopc"
@@ -7935,7 +8060,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/EmployeeLogic/EmployeesDashbord */ "./resources/js/Components/EmployeeLogic/EmployeesDashbord.js");
 /* harmony import */ var _Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/ClientsLogic/DevisClients */ "./resources/js/Components/ClientsLogic/DevisClients.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Components_Table_HeaderStats__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Components/Table/HeaderStats */ "./resources/js/Components/Table/HeaderStats.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -7946,29 +8073,29 @@ __webpack_require__.r(__webpack_exports__);
 
 function Index(props) {
   console.log(props.auth.user.role);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_Layouts_Authenticated__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(_Layouts_Authenticated__WEBPACK_IMPORTED_MODULE_1__["default"], {
     auth: props.auth,
     errors: props.errors,
-    header: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+    header: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
       className: "font-semibold text-xl text-gray-800 leading-tight",
       children: "Dashboard"
     }),
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Head, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Head, {
       title: "Dashboard"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
       className: "py-12",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
         className: "max-w-7xl mx-auto sm:px-6 lg:px-8",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
           className: "bg-white overflow-hidden shadow-sm sm:rounded-lg",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-            className: "p-6 bg-white border-b border-gray-200",
-            children: props.auth.user.role === "0" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              children: ["You're admin logged in", " ", props.auth.user.name, "!"]
-            }) : props.auth.user.role === "1" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              children: ["You're employee logged in", " ", props.auth.user.name, "!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
-            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              children: ["You're client logged in", " ", props.auth.user.name, "!!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+            className: "p-6 bg-white border-b bg-indigo-200",
+            children: props.auth.user.role === "0" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+              children: ["You're admin logged in", " ", props.auth.user.name, "!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Components_Table_HeaderStats__WEBPACK_IMPORTED_MODULE_5__["default"], {})]
+            }) : props.auth.user.role === "1" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+              children: ["You're employee logged in", " ", props.auth.user.name, "!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
+            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+              children: ["You're client logged in", " ", props.auth.user.name, "!!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
             })
           })
         })

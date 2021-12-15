@@ -6,12 +6,7 @@ const clinets = [
     {
         id: 2,
     },
-    {
-        id: 3,
-    },
-    {
-        id: 4,
-    },
+  
 ];
 export default function ProjectTable() {
     return (
@@ -62,10 +57,10 @@ export default function ProjectTable() {
                                             </div>
                                             <div className="pl-4">
                                                 <p className="font-medium">
-                                                    Sociéte nom 
+                                                Art Design 
                                                 </p>
                                                 <p className="text-xs leading-3 text-gray-600 pt-2">
-                                                    amin lahiani
+                                                Ahmed Masmoudi
                                                 </p>
                                             </div>
                                         </div>
