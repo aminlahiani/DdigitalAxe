@@ -4,6 +4,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import NavLinkWebsite from "@/Components/NavLinkWebsite";
 import ResponsiveNavLink from "@/Components/ResponsiveNavLink";
+import { Link } from "@inertiajs/inertia-react";
 
 const navigation = [
     { name: "home1", href: "home1", current: true },
@@ -91,12 +92,13 @@ export default function HeaderNav() {
                                 </div>
                             </div>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                <button
-                                    type="button"
-                                    className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                                >
-                                    Demander un devis
-                                </button>
+                           
+                                <a class="inline-flex items-center h-8 px-4 m-2 text-sm text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800" > <Link
+                                            href={route("demande-devi")}
+                                            active={route().current("demande-devi")}
+                                        >
+                                            Demander un devis
+                                        </Link></a>
                             </div>
                         </div>
                     </div>
