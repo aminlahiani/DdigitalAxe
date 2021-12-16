@@ -23,6 +23,18 @@ export default function Login({ status, canResetPassword }) {
     const onHandleChange = (event) => {
         setData(event.target.name, event.target.type === 'checkbox' ? event.target.checked : event.target.value);
     };
+    const onHandleChangeadmin = () => {
+        data.email =  'admin@gmail.com'
+        data.password = '12345678'
+    };
+    const onHandleChangeclient = () => {
+        data.email =  'client@gmail.com'
+        data.password = '12345678'
+    };
+    const onHandleChangeEmployee = () => {
+        data.email =  'employee@gmail.com'
+        data.password = '12345678'
+    };
 
     const submit = (e) => {
         e.preventDefault();
@@ -88,6 +100,17 @@ export default function Login({ status, canResetPassword }) {
                         Log in
                     </Button>
                 </div>
+              
+               
+                <button  className="ml-4  inline-flex items-center px-4 py-2 bg-gray-900 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest active:bg-gray-900 transition ease-in-out duration-150" onClick={onHandleChangeadmin}>
+                        Admin
+                    </button>
+                    <button  className="ml-4  inline-flex items-center px-4 py-2 bg-gray-900 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest active:bg-gray-900 transition ease-in-out duration-150" onClick={onHandleChangeEmployee}>
+                        Employee
+                    </button>
+                    <button  className="ml-4  inline-flex items-center px-4 py-2 bg-gray-900 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest active:bg-gray-900 transition ease-in-out duration-150" onClick={onHandleChangeclient}>
+                        client
+                    </button>
             </form>
         </Guest>
     );
