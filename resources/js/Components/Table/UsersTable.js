@@ -1,10 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-const users = [
-    {
-        id: 1,
-    },
-];
-export default function UsersTable() {
+
+export default function UsersTable({ users }) {
     return (
         <div className="flex flex-col">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -35,17 +31,23 @@ export default function UsersTable() {
                                     >
                                         <td className="pl-12">
                                             <p className="text-sm font-medium leading-none text-gray-800">
-                                                Ahmed Masmoudi
+                                            {user.email}
                                             </p>
                                         </td>
                                         <td className="pl-12">
                                             <p className="text-sm font-medium leading-none text-gray-800">
-                                                aahmedmasmoudi@gmailcom
+                                            {user.email}
                                             </p>
                                         </td>
                                         <td className="pl-12">
                                             <p className="text-sm font-medium leading-none text-gray-800">
-                                                Admin
+                                               {user.role === "0" ? (
+                                                   <div>ADMIN</div>
+                                                   ) : user.role === "1" ? (
+                                                       <div>EMPLOYEE</div>
+                                                   ) :(
+                                                       <div>CLIENT</div>
+                                                   )}
                                             </p>
                                         </td>
 

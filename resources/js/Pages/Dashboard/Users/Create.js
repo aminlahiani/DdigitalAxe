@@ -2,6 +2,8 @@ import React  from 'react';
 import Button from '@/Components/Button';
 import Input from '@/Components/Input';
 import Label from '@/Components/Label';
+import SelectInput from '@/Components/SelectInput';
+
 import ValidationErrors from '@/Components/ValidationErrors';
 import { Head, Link, useForm } from '@inertiajs/inertia-react';
 import DashboardLayout from '@/Layouts/DashboardLayout';
@@ -11,7 +13,7 @@ export default function Create() {
         name: '',
         email: '',
         password: '',
-        role: "0",
+        role: "",
     });
 
  
@@ -75,8 +77,21 @@ export default function Create() {
                         required
                     />
                 </div>
-
-               
+                <div className="mt-4">
+                <SelectInput
+            
+              label="Role"
+              name="country"
+           
+              value={data.role}
+              onChange={e => setData('role', e.target.value)}
+            >
+              <option value="">Selectionné role</option>
+              <option value="0">admin</option>
+              <option value="1">Employee</option>
+              <option value="2">Client</option>
+            </SelectInput>
+            </div>
 
                 <div className="flex items-center justify-end mt-4">
                 

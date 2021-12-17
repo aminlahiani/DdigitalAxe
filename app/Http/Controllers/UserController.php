@@ -12,15 +12,15 @@ use Illuminate\Support\Facades\Redirect;
 class UserController extends Controller
 {
     //
-    // public function index()
-    // {
-    //     $users = User::all();
+    public function index()
+    {
+        $users = User::all();
 
 
-    //     return Inertia::render('Dashboard/Services/Index', [
-    //         'users' => $users
-    //     ]);
-    // }
+        return Inertia::render('Dashboard/Index', [
+            'users' => $users
+        ]);
+    }
     public function create()
     {
         return Inertia::render('Dashboard/Users/Create');

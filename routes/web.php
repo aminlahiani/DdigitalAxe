@@ -4,6 +4,7 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DeviController;
 use App\Http\Controllers\RelationControler;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\UserController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -53,9 +54,8 @@ Route::get('/clientdashboard', function () {
     return Inertia::render('ClientDashboard/Index');
 })->middleware(['auth', 'verified'])->name('clientdashboard');
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard/Index');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard', [UserController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
+
 
 require __DIR__.'/admin.php';
 require __DIR__.'/auth.php';
