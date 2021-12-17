@@ -4566,7 +4566,7 @@ __webpack_require__.r(__webpack_exports__);
       icon: "dashboard"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_MainMenuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
       text: "Clients",
-      link: "dashboard",
+      link: "clients",
       icon: "users"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_MainMenuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
       text: "Employees",
@@ -6886,62 +6886,59 @@ __webpack_require__.r(__webpack_exports__);
 function HeaderStats() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "relative bg-lightBlue-600 md:pt-32 pb-32 pt-12",
+      className: "px-4 md:px-10 mx-auto w-full",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "px-4 md:px-10 mx-auto w-full",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "flex flex-wrap",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
-                statSubtitle: "clients",
-                statTitle: "3",
-                statArrow: "up",
-                statPercent: "3.48",
-                statPercentColor: "text-emerald-500",
-                statDescripiron: "Since last month",
-                statIconName: "far fa-chart-bar",
-                statIconColor: "bg-red-500"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
-                statSubtitle: "employees",
-                statTitle: "5",
-                statArrow: "down",
-                statPercent: "3.48",
-                statPercentColor: "text-red-500",
-                statDescripiron: "Since last week",
-                statIconName: "fas fa-chart-pie",
-                statIconColor: "bg-orange-500"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
-                statSubtitle: "Services",
-                statTitle: "10",
-                statArrow: "down",
-                statPercent: "1.10",
-                statPercentColor: "text-orange-500",
-                statDescripiron: "Since yesterday",
-                statIconName: "fas fa-users",
-                statIconColor: "bg-pink-500"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
-                statSubtitle: "Projects",
-                statTitle: "5",
-                statArrow: "up",
-                statPercent: "12",
-                statPercentColor: "text-emerald-500",
-                statDescripiron: "Since last month",
-                statIconName: "fas fa-percent",
-                statIconColor: "bg-lightBlue-500"
-              })
-            })]
-          })
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "flex flex-wrap",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+              statSubtitle: "clients",
+              statTitle: "3",
+              statArrow: "up",
+              statPercent: "3.48",
+              statPercentColor: "text-emerald-500",
+              statDescripiron: "Since last month",
+              statIconName: "far fa-chart-bar",
+              statIconColor: "bg-red-500"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+              statSubtitle: "employees",
+              statTitle: "5",
+              statArrow: "down",
+              statPercent: "3.48",
+              statPercentColor: "text-red-500",
+              statDescripiron: "Since last week",
+              statIconName: "fas fa-chart-pie",
+              statIconColor: "bg-orange-500"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+              statSubtitle: "Services",
+              statTitle: "10",
+              statArrow: "down",
+              statPercent: "1.10",
+              statPercentColor: "text-orange-500",
+              statDescripiron: "Since yesterday",
+              statIconName: "fas fa-users",
+              statIconColor: "bg-pink-500"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_CardStats__WEBPACK_IMPORTED_MODULE_0__["default"], {
+              statSubtitle: "Projects",
+              statTitle: "5",
+              statArrow: "up",
+              statPercent: "12",
+              statPercentColor: "text-emerald-500",
+              statDescripiron: "Since last month",
+              statIconName: "fas fa-percent",
+              statIconColor: "bg-lightBlue-500"
+            })
+          })]
         })
       })
     })
@@ -7212,6 +7209,96 @@ function ServicesTable(_ref) {
                     })
                   })]
                 }, service.id);
+              })
+            })]
+          })
+        })
+      })
+    })
+  });
+}
+
+/***/ }),
+
+/***/ "./resources/js/Components/Table/UsersTable.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/Components/Table/UsersTable.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ UsersTable)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+/* This example requires Tailwind CSS v2.0+ */
+var users = [{
+  id: 1
+}];
+function UsersTable() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    className: "flex flex-col",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+      className: "-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        className: "py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+          className: "shadow overflow-hidden border-b border-gray-200 sm:rounded-lg",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("table", {
+            className: "min-w-full divide-y divide-gray-200",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("thead", {
+              className: "bg-gray-50",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", {
+                className: "h-16 w-full text-sm leading-none text-gray-800",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", {
+                  className: "font-normal text-left pl-12",
+                  children: "Nom et Prenom"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", {
+                  className: "font-normal text-left pl-4",
+                  children: "email"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", {
+                  className: "font-normal text-left pl-12",
+                  children: "Role"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", {
+                  className: "font-normal text-left pl-20"
+                })]
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("tbody", {
+              className: "w-full",
+              children: users.map(function (user) {
+                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", {
+                  className: "h-20 text-sm leading-none text-gray-800 bg-white hover:bg-gray-100 border-b border-t border-gray-100",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", {
+                    className: "pl-12",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                      className: "text-sm font-medium leading-none text-gray-800",
+                      children: "Ahmed Masmoudi"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", {
+                    className: "pl-12",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                      className: "text-sm font-medium leading-none text-gray-800",
+                      children: "aahmedmasmoudi@gmailcom"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", {
+                    className: "pl-12",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                      className: "text-sm font-medium leading-none text-gray-800",
+                      children: "Admin"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", {
+                    className: "px-6 py-4 whitespace-nowrap text-right text-sm font-medium",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                      href: "#",
+                      className: "text-indigo-600 hover:text-indigo-900",
+                      children: "Edit"
+                    })
+                  })]
+                }, user.id);
               })
             })]
           })
@@ -8590,6 +8677,50 @@ function VerifyEmail(_ref) {
 
 /***/ }),
 
+/***/ "./resources/js/Pages/ClientDashboard/Index.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/Pages/ClientDashboard/Index.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Layouts_Authenticated__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Layouts/Authenticated */ "./resources/js/Layouts/Authenticated.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var _Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/EmployeeLogic/EmployeesDashbord */ "./resources/js/Components/EmployeeLogic/EmployeesDashbord.js");
+/* harmony import */ var _Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/ClientsLogic/DevisClients */ "./resources/js/Components/ClientsLogic/DevisClients.js");
+/* harmony import */ var _Components_Table_HeaderStats__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Components/Table/HeaderStats */ "./resources/js/Components/Table/HeaderStats.js");
+/* harmony import */ var _Components_Table_UsersTable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Components/Table/UsersTable */ "./resources/js/Components/Table/UsersTable.js");
+/* harmony import */ var _Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Layouts/DashboardLayout */ "./resources/js/Layouts/DashboardLayout.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+
+
+
+function Index(props) {
+  console.log(props.auth.user.role);
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+      children: ["You're client logged in ", props.auth.user.name, "!!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
+    })
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Dashboard/Clients/Index.js":
 /*!*******************************************************!*\
   !*** ./resources/js/Pages/Dashboard/Clients/Index.js ***!
@@ -8605,7 +8736,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layouts_Authenticated__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Layouts/Authenticated */ "./resources/js/Layouts/Authenticated.js");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _Components_Table_ClientsTable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/Table/ClientsTable */ "./resources/js/Components/Table/ClientsTable.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Layouts/DashboardLayout */ "./resources/js/Layouts/DashboardLayout.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -8615,33 +8748,22 @@ __webpack_require__.r(__webpack_exports__);
 
 function Index(props) {
   console.log(props);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_Layouts_Authenticated__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    auth: props.auth,
-    errors: props.errors,
-    header: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
-      className: "font-semibold text-xl text-gray-800 leading-tight",
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
+      className: "mb-8 text-3xl font-bold",
       children: "Clients"
-    }),
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Head, {
-      title: "Clients"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: "py-12",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-        className: "max-w-7xl mx-auto sm:px-6 lg:px-8",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "bg-white overflow-hidden shadow-sm sm:rounded-lg",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: "px-4 md:px-10 py-4 md:py-7 bg-gray-100 rounded-tl-lg rounded-tr-lg",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
-              className: "flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "text-sm font-medium leading-none text-white",
-                children: "Ajouter un Client"
-              })
-            })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Components_Table_ClientsTable__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("button", {
+      className: "flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+        className: "text-sm font-medium leading-none text-white",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Link, {
+          href: route("services-create"),
+          children: "Ajouter Un Client"
         })
       })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      className: "mt-10",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Components_Table_ClientsTable__WEBPACK_IMPORTED_MODULE_3__["default"], {})
     })]
   });
 }
@@ -8786,7 +8908,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/EmployeeLogic/EmployeesDashbord */ "./resources/js/Components/EmployeeLogic/EmployeesDashbord.js");
 /* harmony import */ var _Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/ClientsLogic/DevisClients */ "./resources/js/Components/ClientsLogic/DevisClients.js");
 /* harmony import */ var _Components_Table_HeaderStats__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Components/Table/HeaderStats */ "./resources/js/Components/Table/HeaderStats.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Components_Table_UsersTable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Components/Table/UsersTable */ "./resources/js/Components/Table/UsersTable.js");
+/* harmony import */ var _Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Layouts/DashboardLayout */ "./resources/js/Layouts/DashboardLayout.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
 
 
 
@@ -8798,34 +8924,31 @@ __webpack_require__.r(__webpack_exports__);
 
 function Index(props) {
   console.log(props.auth.user.role);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(_Layouts_Authenticated__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    auth: props.auth,
-    errors: props.errors,
-    header: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
-      className: "font-semibold text-xl text-gray-800 leading-tight",
-      children: "Dashboard"
-    }),
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Head, {
-      title: "Dashboard"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-      className: "py-12",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-        className: "max-w-7xl mx-auto sm:px-6 lg:px-8",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-          className: "bg-white overflow-hidden shadow-sm sm:rounded-lg",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-            className: "p-6 bg-white border-b bg-indigo-200",
-            children: props.auth.user.role === "0" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-              children: ["You're admin logged in", " ", props.auth.user.name, "!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Components_Table_HeaderStats__WEBPACK_IMPORTED_MODULE_5__["default"], {})]
-            }) : props.auth.user.role === "1" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-              children: ["You're employee logged in", " ", props.auth.user.name, "!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
-            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-              children: ["You're client logged in", " ", props.auth.user.name, "!!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+      children: props.auth.user.role === "0" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Table_HeaderStats__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+          className: "mt-10",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("button", {
+            className: "flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+              className: "text-sm font-medium leading-none text-white",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Link, {
+                href: route("users-create"),
+                children: "Ajouter Un Utilisateur"
+              })
             })
           })
-        })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+          className: "mt-10",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Table_UsersTable__WEBPACK_IMPORTED_MODULE_6__["default"], {})
+        })]
+      }) : props.auth.user.role === "1" ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+        children: ["You're employee logged in ", props.auth.user.name, "!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
+      }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+        children: ["You're client logged in ", props.auth.user.name, "!!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
       })
-    })]
+    })
   });
 }
 
@@ -9018,24 +9141,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Index(props) {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
-        className: "mb-8 text-3xl font-bold",
-        children: "Service"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("button", {
-        className: "flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-          className: "text-sm font-medium leading-none text-white",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
-            href: route("services-create"),
-            children: "Ajouter Un Service"
-          })
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
+      className: "mb-8 text-3xl font-bold",
+      children: "Service"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("button", {
+      className: "flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+        className: "text-sm font-medium leading-none text-white",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+          href: route("services-create"),
+          children: "Ajouter Un Service"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Components_Table_ServicesTable__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      className: "mt-10",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Components_Table_ServicesTable__WEBPACK_IMPORTED_MODULE_2__["default"], {
         services: props.services
-      })]
-    })
+      })
+    })]
   });
 }
 
@@ -9275,6 +9399,164 @@ function ServicesForm() {
     })]
   });
 }
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/Users/Create.js":
+/*!******************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/Users/Create.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Create)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Components_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Components/Button */ "./resources/js/Components/Button.js");
+/* harmony import */ var _Components_Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Components/Input */ "./resources/js/Components/Input.js");
+/* harmony import */ var _Components_Label__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/Label */ "./resources/js/Components/Label.js");
+/* harmony import */ var _Components_ValidationErrors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/ValidationErrors */ "./resources/js/Components/ValidationErrors.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var _Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Layouts/DashboardLayout */ "./resources/js/Layouts/DashboardLayout.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+
+function Create() {
+  var _useForm = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__.useForm)({
+    name: '',
+    email: '',
+    password: '',
+    role: "0"
+  }),
+      data = _useForm.data,
+      setData = _useForm.setData,
+      post = _useForm.post,
+      processing = _useForm.processing,
+      errors = _useForm.errors,
+      reset = _useForm.reset;
+
+  var onHandleChange = function onHandleChange(event) {
+    setData(event.target.name, event.target.value);
+  };
+
+  var submit = function submit(e) {
+    e.preventDefault();
+    post(route('users-create'));
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__.Head, {
+      title: "Creation Utulisateur"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_ValidationErrors__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      errors: errors
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("form", {
+      onSubmit: submit,
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          forInput: "name",
+          value: "nom et prenom"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          type: "text",
+          name: "name",
+          value: data.name,
+          className: "mt-1 block w-full",
+          autoComplete: "name",
+          isFocused: true,
+          handleChange: onHandleChange,
+          required: true
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+        className: "mt-4",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          forInput: "email",
+          value: "Email"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          type: "email",
+          name: "email",
+          value: data.email,
+          className: "mt-1 block w-full",
+          autoComplete: "username",
+          handleChange: onHandleChange,
+          required: true
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+        className: "mt-4",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          forInput: "password",
+          value: "Password"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          type: "password",
+          name: "password",
+          value: data.password,
+          className: "mt-1 block w-full",
+          autoComplete: "new-password",
+          handleChange: onHandleChange,
+          required: true
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+        className: "flex items-center justify-end mt-4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          className: "ml-4",
+          processing: processing,
+          children: "Creation"
+        })
+      })]
+    })]
+  });
+}
+
+/***/ }),
+
+/***/ "./resources/js/Pages/EmployeeDashboard/Index.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/Pages/EmployeeDashboard/Index.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Layouts_Authenticated__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Layouts/Authenticated */ "./resources/js/Layouts/Authenticated.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var _Components_EmployeeLogic_EmployeesDashbord__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/EmployeeLogic/EmployeesDashbord */ "./resources/js/Components/EmployeeLogic/EmployeesDashbord.js");
+/* harmony import */ var _Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/ClientsLogic/DevisClients */ "./resources/js/Components/ClientsLogic/DevisClients.js");
+/* harmony import */ var _Components_Table_HeaderStats__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Components/Table/HeaderStats */ "./resources/js/Components/Table/HeaderStats.js");
+/* harmony import */ var _Components_Table_UsersTable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Components/Table/UsersTable */ "./resources/js/Components/Table/UsersTable.js");
+/* harmony import */ var _Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Layouts/DashboardLayout */ "./resources/js/Layouts/DashboardLayout.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+
+
+
+function Index(props) {
+  console.log(props.auth.user.role);
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+      children: ["You're Employee logged in ", props.auth.user.name, "!!", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_ClientsLogic_DevisClients__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
+    })
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
 
 /***/ }),
 
@@ -65807,6 +66089,8 @@ var map = {
 	"./Auth/ResetPassword.js": "./resources/js/Pages/Auth/ResetPassword.js",
 	"./Auth/VerifyEmail": "./resources/js/Pages/Auth/VerifyEmail.js",
 	"./Auth/VerifyEmail.js": "./resources/js/Pages/Auth/VerifyEmail.js",
+	"./ClientDashboard/Index": "./resources/js/Pages/ClientDashboard/Index.js",
+	"./ClientDashboard/Index.js": "./resources/js/Pages/ClientDashboard/Index.js",
 	"./Dashboard/Clients/Index": "./resources/js/Pages/Dashboard/Clients/Index.js",
 	"./Dashboard/Clients/Index.js": "./resources/js/Pages/Dashboard/Clients/Index.js",
 	"./Dashboard/Devis/Index": "./resources/js/Pages/Dashboard/Devis/Index.js",
@@ -65827,6 +66111,10 @@ var map = {
 	"./Dashboard/Services/components/EditServicesForm.js": "./resources/js/Pages/Dashboard/Services/components/EditServicesForm.js",
 	"./Dashboard/Services/components/ServicesForm": "./resources/js/Pages/Dashboard/Services/components/ServicesForm.js",
 	"./Dashboard/Services/components/ServicesForm.js": "./resources/js/Pages/Dashboard/Services/components/ServicesForm.js",
+	"./Dashboard/Users/Create": "./resources/js/Pages/Dashboard/Users/Create.js",
+	"./Dashboard/Users/Create.js": "./resources/js/Pages/Dashboard/Users/Create.js",
+	"./EmployeeDashboard/Index": "./resources/js/Pages/EmployeeDashboard/Index.js",
+	"./EmployeeDashboard/Index.js": "./resources/js/Pages/EmployeeDashboard/Index.js",
 	"./Static/About/AboutContact": "./resources/js/Pages/Static/About/AboutContact.js",
 	"./Static/About/AboutContact.js": "./resources/js/Pages/Static/About/AboutContact.js",
 	"./Static/About/AboutPage": "./resources/js/Pages/Static/About/AboutPage.js",

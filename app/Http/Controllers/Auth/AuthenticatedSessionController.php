@@ -4,9 +4,12 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
+use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -36,9 +39,25 @@ class AuthenticatedSessionController extends Controller
         $request->authenticate();
 
         $request->session()->regenerate();
+     //   echo $request;
+         $email =   $request->email;
+      //   echo $email;
+        
+         
+    
+         $role = DB::table('users')->where('email', $email)->first()->role;
+       //  echo $role;
+       if ($role === '0') {
+            return redirect()->intended(RouteServiceProvider::HOME);
 
-        return redirect()->intended(RouteServiceProvider::HOME);
+       } elseif ($role === '1' ) {
+        return redirect()->intended(RouteServiceProvider::EMPLOYEEHOME);
+       }
+       else {
+        return redirect()->intended(RouteServiceProvider::CLIENTHOME);
+         }
     }
+
 
     /**
      * Destroy an authenticated session.

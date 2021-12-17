@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -34,3 +35,8 @@ Route::delete('dashboard/services/{service}' , [ServiceController::class, 'destr
 
 Route::inertia('/dashboard/projects', 'Dashboard/Projects/Index')->name('projects');
 Route::inertia('/dashboard/devis', 'Dashboard/Devis/Index')->name('devis');
+
+
+
+Route::get('/dashboard/users/create', [UserController::class, 'create'])->name('users-create');
+Route::post('/dashboard/users/create', [UserController::class, 'store']);
