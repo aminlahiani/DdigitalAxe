@@ -1,5 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 
+import { Link } from "@inertiajs/inertia-react";
+
 export default function UsersTable({ users }) {
     return (
         <div className="flex flex-col">
@@ -31,7 +33,7 @@ export default function UsersTable({ users }) {
                                     >
                                         <td className="pl-12">
                                             <p className="text-sm font-medium leading-none text-gray-800">
-                                            {user.email}
+                                            {user.name}
                                             </p>
                                         </td>
                                         <td className="pl-12">
@@ -56,9 +58,17 @@ export default function UsersTable({ users }) {
                                                 href="#"
                                                 className="text-indigo-600 hover:text-indigo-900"
                                             >
-                                                Edit
+                                                <Link
+                                                    href={route(
+                                                        "user.edit",
+                                                        user.id
+                                                    )}
+                                                >
+                                                    Edit
+                                                </Link>
                                             </a>
                                         </td>
+                                  
                                     </tr>
                                 ))}
                             </tbody>

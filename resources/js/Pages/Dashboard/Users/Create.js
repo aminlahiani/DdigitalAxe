@@ -78,11 +78,15 @@ export default function Create() {
                     />
                 </div>
                 <div className="mt-4">
-                <SelectInput
-            
-              label="Role"
-              name="country"
+                <label htmlFor="role" className="block text-sm font-medium text-gray-700">
+                        Role
+                      </label>
+                <select
+            className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  
            
+              name="role"
+              id="role"
               value={data.role}
               onChange={e => setData('role', e.target.value)}
             >
@@ -90,7 +94,7 @@ export default function Create() {
               <option value="0">admin</option>
               <option value="1">Employee</option>
               <option value="2">Client</option>
-            </SelectInput>
+            </select>
             </div>
 
                 <div className="flex items-center justify-end mt-4">

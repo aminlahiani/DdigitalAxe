@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\UserResource;
 use App\Models\User;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
@@ -41,5 +42,33 @@ class UserController extends Controller
         ]);
 
         return Redirect::route('dashboard')->with('success', 'user  created.');
+    }
+    public function edit(User $user)
+    {
+
+        return Inertia::render('Dashboard/Users/Edit', [
+            'user' => new UserResource($user)
+
+        ]);
+    }
+    
+    public function update(User $user, Request $request)
+    {
+
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|max:255',
+            'role' => 'required',
+        ]);
+        $user->update($request->all());
+
+        return Redirect::route('dashboard')->with('success', 'users  updated.');
+    }
+
+    public function destroy(User $user)
+    {
+        $user->delete();
+
+        return Redirect::route('dashboard')->with('success', 'user  deleted.');
     }
 }
