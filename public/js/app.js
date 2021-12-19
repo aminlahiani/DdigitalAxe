@@ -9082,7 +9082,14 @@ function CreateEmployeeForm(_ref) {
   var _useForm = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__.useForm)({
     user_id: "",
     poste: "",
-    phone: ""
+    phone: "",
+    firstname: 'firstname',
+    lastname: 'lastname',
+    address: 'address',
+    city: 'city',
+    region: 'region',
+    country: 'tunis',
+    postal_code: 'postal_code'
   }),
       data = _useForm.data,
       setData = _useForm.setData,

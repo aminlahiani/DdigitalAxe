@@ -34,6 +34,14 @@ class EmployeeController extends Controller
             'user_id' => 'required',
             'phone'  => 'required',
             'poste' => 'required',
+            'firstname' =>'required|string|max:255' ,
+            'lastname' => 'required|string|max:255'  ,
+            'address' => 'string|max:255' ,
+            'city' => 'string|max:255' ,
+            'region' =>'string|max:255' ,
+            'country' => 'string|max:255' ,
+            'postal_code' => 'string|max:255' 
+
         ]);
         Employee::create($employee);
 

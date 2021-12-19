@@ -12,7 +12,14 @@ export default function CreateEmployeeForm({ users }) {
     const { data, setData, post, processing, errors, reset } = useForm({
         user_id: "",
         poste: "",
-        phone: ""
+        phone: "",
+        firstname : 'firstname',
+        lastname : 'lastname',
+        address: 'address',
+        city: 'city',
+        region :'region',
+        country:  'tunis',
+        postal_code: 'postal_code',
     });
     console.log(data.user_id);
 

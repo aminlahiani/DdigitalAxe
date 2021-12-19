@@ -12,9 +12,16 @@ class Employee extends Model
         'user_id',
         'phone',
         'poste',
+        'firstname',
+        'lastname',
+        'address',
+        'city',
+        'region',
+        'country',
+        'postal_code',
     ];
-    protected $with=[ "user"];
-    
+    protected $with = ["user"];
+
     public function user()
     {
         return $this->belongsTo(User::class);
