@@ -6,16 +6,15 @@ import ServicesTable from "@/Components/Table/ServicesTable";
 import { InertiaLink, usePage, useForm } from "@inertiajs/inertia-react";
 import EditUserForm from "./components/EditUserForm";
 import DashboardLayout from "@/Layouts/DashboardLayout";
+import UserEditBreadcrumb from "./components/Breadcrumb/UserEditBreadcrumb";
 function Edit(props) {
     const { service } = usePage().props;
     console.log(service);
     return (
         <DashboardLayout>
-             <h2 className="font-semibold text-xl text-gray-800 leading-tight">
-                    {" "}
-                    Modifier Utilisateur
-                </h2>  
-                <div className="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <UserEditBreadcrumb/>
+           
+            <div className="mt-5">
                     <EditUserForm />
                 </div>
                 </DashboardLayout>
