@@ -5,6 +5,7 @@ import ServicesTable from "@/Components/Table/ServicesTable";
 import { InertiaLink, usePage, useForm } from "@inertiajs/inertia-react";
 import EditEmployeeForm from "./components/EditEmployeeForm";
 import DashboardLayout from "@/Layouts/DashboardLayout";
+import EmployeeEditBreadcrumb from "./components/Breadcrumb/EmployeeEditBreadcrumb";
 function Edit(props) {
     const { employee } = usePage().props;
 
@@ -12,14 +13,9 @@ function Edit(props) {
 
     return (
         <DashboardLayout>
-             <h2 className="font-semibold text-xl text-gray-800 leading-tight">
-                    {" "}
-                    Edit Employee
-                </h2>
-         
-
+            <EmployeeEditBreadcrumb/>
            
-                <div className="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+                <div className=" mt-5">
                     <EditEmployeeForm users={props.users}  employee={employee} /> 
                 </div>
                 </DashboardLayout>

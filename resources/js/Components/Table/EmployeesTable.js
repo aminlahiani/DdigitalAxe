@@ -40,13 +40,13 @@ export default function EmployeesTable({ employees }) {
                                         scope="col"
                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                                     >
-                                        Nom et Prenom
+                                        Cordonner
                                     </th>
                                     <th
                                         scope="col"
                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                                     >
-                                        Cordonner
+                                        Adresse
                                     </th>
                                     <th
                                         scope="col"
@@ -82,17 +82,24 @@ export default function EmployeesTable({ employees }) {
                                             <div className="flex items-center">
                                                 <div className="ml-4">
                                                     <div className="text-sm font-medium text-gray-900">
-                                                        {person.user.name}
+                                                      {person.firstname} {person.lastname}
                                                     </div>
+                                                    <div className="text-sm text-gray-500">
+                                               {person.user.email}
+                                            </div>
+                                                    <div className="text-sm text-gray-500">
+                                               {person.phone}
+                                            </div>
+
                                                 </div>
                                             </div>
                                         </td>
                                         <td className="px-6 py-4 whitespace-nowrap">
                                             <div className="text-sm text-gray-900">
-                                                {person.user.email}
+                                                {person.address}
                                             </div>
                                             <div className="text-sm text-gray-500">
-                                               {person.phone}
+                                               {person.city},{person.region},{person.country},{person.postal_code}
                                             </div>
                                         </td>
                                         <td className="px-6 py-4 whitespace-nowrap">

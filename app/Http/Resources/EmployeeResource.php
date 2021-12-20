@@ -18,7 +18,14 @@ class EmployeeResource extends JsonResource
             'id' => $this->id,
             'user_id' => $this->user_id,
             'phone' => $this->phone,
-            'poste' => $this->poste
+            'poste' => $this->poste,
+            'firstname'  => $this->firstname,
+            'lastname' => $this->lastname,
+            'address' => $this->address ,
+            'city' => $this->ciry,
+            'region' => $this->region,
+            'country' => $this->country,
+            'postal_code' =>$this->postal_code
         ];
     }
 }

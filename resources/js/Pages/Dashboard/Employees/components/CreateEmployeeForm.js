@@ -13,13 +13,13 @@ export default function CreateEmployeeForm({ users }) {
         user_id: "",
         poste: "",
         phone: "",
-        firstname : 'firstname',
-        lastname : 'lastname',
-        address: 'address',
-        city: 'city',
-        region :'region',
-        country:  '1',
-        postal_code: 'postal_code',
+        firstname : '',
+        lastname : '',
+        address: '',
+        city: '',
+        region :'',
+        country:  '',
+        postal_code: '',
     });
     console.log(data.user_id);
 
@@ -119,6 +119,7 @@ export default function CreateEmployeeForm({ users }) {
                     />
                 </div>
                 <div className="col-span-6 sm:col-span-3">
+                  
                       <label htmlFor="country" className="block text-sm font-medium text-gray-700">
                         Country
                       </label>
@@ -133,21 +134,24 @@ export default function CreateEmployeeForm({ users }) {
                         className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       >
                           <option value="">Select Contry</option>
-                          <option value="1">Tunisia</option>
-                        <option value="2">United States</option>
-                        <option value="3">Canada</option>
-                        <option value="4">Mexico</option>
+                          <option value="Tunisia">Tunisia</option>
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
                       </select>
                     </div>
 
                     <div className="col-span-6">
-                      <label htmlFor="street-address" className="block text-sm font-medium text-gray-700">
-                        Street address
-                      </label>
-                      <input
+                    <Label forInput="address" value="Street address" />
+                     
+                      <Input
                         type="text"
-                        name="street-address"
-                        id="street-address"
+                        name="address"
+                        value={data.address}
+                        id="address"
+                        isFocused={true}
+                        handleChange={onHandleChange}
+                       
                         autoComplete="street-address"
                         className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                       />
@@ -157,10 +161,12 @@ export default function CreateEmployeeForm({ users }) {
                       <label htmlFor="city" className="block text-sm font-medium text-gray-700">
                         City
                       </label>
-                      <input
+                      <Input
                         type="text"
                         name="city"
                         id="city"
+                        value={data.city}
+                        handleChange={onHandleChange}
                         autoComplete="address-level2"
                         className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                       />
@@ -170,9 +176,11 @@ export default function CreateEmployeeForm({ users }) {
                       <label htmlFor="region" className="block text-sm font-medium text-gray-700">
                         State / Province
                       </label>
-                      <input
+                      <Input
                         type="text"
                         name="region"
+                        value={data.region}
+                        handleChange={onHandleChange}
                         id="region"
                         autoComplete="address-level1"
                         className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
@@ -180,13 +188,15 @@ export default function CreateEmployeeForm({ users }) {
                     </div>
 
                     <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                      <label htmlFor="postal-code" className="block text-sm font-medium text-gray-700">
+                      <label htmlFor="postal_code" className="block text-sm font-medium text-gray-700">
                         ZIP / Postal code
                       </label>
-                      <input
+                      <Input
                         type="text"
-                        name="postal-code"
-                        id="postal-code"
+                        name="postal_code"
+                        id="postal_code"
+                        value={data.postal_code}
+                        handleChange={onHandleChange}
                         autoComplete="postal-code"
                         className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                       />
@@ -194,7 +204,7 @@ export default function CreateEmployeeForm({ users }) {
               
                 </div>
                 <div className="flex items-center justify-end mt-4">
-                    <Button className="ml-4" processing={processing}>
+                    <Button className="ml-4  bg-tahiti-900 hover:bg-tahiti-800 " processing={processing}>
                         creation d'Un Employee
                     </Button>
                 </div>

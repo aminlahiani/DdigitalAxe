@@ -13,7 +13,7 @@ export default ({ icon, link, text }) => {
 
   const textClasses = classNames({
     'text-white': isActive,
-    'text-indigo-200 group-hover:text-white': !isActive
+    'text-tahiti-100 group-hover:text-white': !isActive
   });
 
   return (

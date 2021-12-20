@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { InertiaLink, usePage } from '@inertiajs/inertia-react';
 import Icon from './Icon';
+import SearchBar from './SearchBar';
 
 export default () => {
   const { auth } = usePage().props;
   const [menuOpened, setMenuOpened] = useState(false);
   return (
     <div className="flex items-center justify-between w-full p-4 text-sm bg-white border-b md:py-0 md:px-12 d:text-md">
-      <div className="mt-1 mr-4">{auth.user.name}</div>
+      <div className="">   <SearchBar/></div>
       <div className="relative">
         <div
           className="flex items-center cursor-pointer select-none group"
