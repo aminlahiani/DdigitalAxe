@@ -10,7 +10,7 @@ export default function HeaderStats() {
     <>
       {/* Header */}
      
-        <div className="px-4 md:px-10 mx-auto w-full">
+        <div className=" mx-auto w-full">
           <div>
             {/* Card stats */}
             <div className="flex flex-wrap">

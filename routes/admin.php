@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Route;
 
 
 // admin Pages route
-Route::get('/dashboard/clients', [ClientController::class, 'index'])->name('clients')->middleware(['auth', "admin", 'verified']);
+
 //Route::get('/dashboard/clients', 'App\Http\Controllers\ClientController@index');
 
 // Services Admin  Route
@@ -46,3 +46,7 @@ Route::post('/dashboard/employees/create', [EmployeeController::class, 'store'])
 Route::get('/dashboard/employees/{employee}/edit', [EmployeeController::class, 'edit'])->name('employee.edit');
 Route::put('dashboard/employees/{employee}' , [EmployeeController::class, 'update'])->name('employee.update');
 Route::delete('dashboard/employees/{employee}' , [EmployeeController::class, 'destroy'])->name('employee.destroy');
+
+
+Route::get('/dashboard/clients', [ClientController::class, 'index'])->name('clients')->middleware(['auth', "admin", 'verified']);
+Route::get('/dashboard/clients/create', [ClientController::class, 'create'])->name('client.create');

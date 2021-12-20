@@ -7098,7 +7098,7 @@ __webpack_require__.r(__webpack_exports__);
 function HeaderStats() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "px-4 md:px-10 mx-auto w-full",
+      className: " mx-auto w-full",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           className: "flex flex-wrap",
@@ -8941,6 +8941,46 @@ function Index(props) {
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Dashboard/Clients/Create.js":
+/*!********************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/Clients/Create.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var _components_CreateClientForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/CreateClientForm */ "./resources/js/Pages/Dashboard/Clients/components/CreateClientForm.js");
+/* harmony import */ var _Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Layouts/DashboardLayout */ "./resources/js/Layouts/DashboardLayout.js");
+/* harmony import */ var _Components_Breadcrumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/Breadcrumb */ "./resources/js/Components/Breadcrumb.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+function Create(props) {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_Layouts_DashboardLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Components_Breadcrumb__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      className: " mt-5",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_CreateClientForm__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        users: props.users
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Create);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Dashboard/Clients/Index.js":
 /*!*******************************************************!*\
   !*** ./resources/js/Pages/Dashboard/Clients/Index.js ***!
@@ -8977,7 +9017,7 @@ function Index(props) {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
         className: "text-sm font-medium leading-none text-white",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Link, {
-          href: route("services-create"),
+          href: route("client.create"),
           children: "Ajouter Un Client"
         })
       })
@@ -8989,6 +9029,291 @@ function Index(props) {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/Clients/components/CreateClientForm.js":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/Clients/components/CreateClientForm.js ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CreateClientForm)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Components_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Components/Button */ "./resources/js/Components/Button.js");
+/* harmony import */ var _Components_Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Components/Input */ "./resources/js/Components/Input.js");
+/* harmony import */ var _Components_Label__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Components/Label */ "./resources/js/Components/Label.js");
+/* harmony import */ var _Components_ValidationErrors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Components/ValidationErrors */ "./resources/js/Components/ValidationErrors.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var _Components_SelectInput__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Components/SelectInput */ "./resources/js/Components/SelectInput.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+
+
+function CreateClientForm(_ref) {
+  var users = _ref.users;
+  console.log(users);
+
+  var _useForm = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__.useForm)({
+    user_id: "",
+    company: "",
+    logo_url: "",
+    phone: "",
+    firstname: '',
+    lastname: '',
+    address: '',
+    city: '',
+    region: '',
+    country: '',
+    postal_code: ''
+  }),
+      data = _useForm.data,
+      setData = _useForm.setData,
+      post = _useForm.post,
+      processing = _useForm.processing,
+      errors = _useForm.errors,
+      reset = _useForm.reset;
+
+  console.log(data.user_id);
+
+  var onHandleChange = function onHandleChange(event) {
+    setData(event.target.name, event.target.value);
+  };
+
+  var submit = function submit(e) {
+    e.preventDefault();
+    post(route("employee.create"));
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_ValidationErrors__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      errors: errors
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("form", {
+      onSubmit: submit,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+        className: "shadow overflow-hidden sm:rounded-md",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          className: "px-4 py-5 bg-white sm:p-6",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+            className: "grid grid-cols-6 gap-6",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+                htmlFor: "user_id",
+                className: "block text-sm font-medium text-gray-700",
+                children: "Client"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("select", {
+                className: "mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm",
+                name: "user_id",
+                id: "user_id",
+                value: data.user_id,
+                onChange: function onChange(e) {
+                  return setData("user_id", e.target.value);
+                },
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
+                  value: "",
+                  children: "Selectionn\xE9 un client"
+                }), users.map(function (_ref2) {
+                  var id = _ref2.id,
+                      name = _ref2.name;
+                  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
+                    value: id,
+                    children: name
+                  }, id);
+                })]
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                forInput: "phone",
+                value: "Logo_Url"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "phone",
+                value: data.logo_url,
+                className: "mt-1 block w-full",
+                autoComplete: "description",
+                isFocused: true,
+                handleChange: onHandleChange,
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                forInput: "phone",
+                value: "Nom de la Soci\xE9t\xE9"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "phone",
+                value: data.company,
+                className: "mt-1 block w-full",
+                autoComplete: "description",
+                isFocused: true,
+                handleChange: onHandleChange,
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                forInput: "poste",
+                value: "Telephone"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "poste",
+                value: data.phone,
+                className: "mt-1 block w-full",
+                autoComplete: "description",
+                isFocused: true,
+                handleChange: onHandleChange,
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                forInput: "firstname",
+                value: "Nom"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "firstname",
+                value: data.firstname,
+                className: "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md",
+                autoComplete: "name",
+                isFocused: true,
+                handleChange: onHandleChange,
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                forInput: "lastname",
+                value: "Prenom"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "lastname",
+                value: data.lastname,
+                className: "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md",
+                autoComplete: "name",
+                isFocused: true,
+                handleChange: onHandleChange,
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+                htmlFor: "country",
+                className: "block text-sm font-medium text-gray-700",
+                children: "Country"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("select", {
+                id: "country",
+                name: "country",
+                value: data.country,
+                onChange: function onChange(e) {
+                  return setData("country", e.target.value);
+                },
+                autoComplete: "country-name",
+                className: "mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
+                  value: "",
+                  children: "Select Contry"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
+                  value: "Tunisia",
+                  children: "Tunisia"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
+                  value: "United States",
+                  children: "United States"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
+                  value: "Canada",
+                  children: "Canada"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
+                  value: "Mexico",
+                  children: "Mexico"
+                })]
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                forInput: "address",
+                value: "Street address"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "address",
+                value: data.address,
+                id: "address",
+                isFocused: true,
+                handleChange: onHandleChange,
+                autoComplete: "street-address",
+                className: "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-6 lg:col-span-2",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+                htmlFor: "city",
+                className: "block text-sm font-medium text-gray-700",
+                children: "City"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "city",
+                id: "city",
+                value: data.city,
+                handleChange: onHandleChange,
+                autoComplete: "address-level2",
+                className: "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3 lg:col-span-2",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+                htmlFor: "region",
+                className: "block text-sm font-medium text-gray-700",
+                children: "State / Province"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "region",
+                value: data.region,
+                handleChange: onHandleChange,
+                id: "region",
+                autoComplete: "address-level1",
+                className: "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+              className: "col-span-6 sm:col-span-3 lg:col-span-2",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+                htmlFor: "postal_code",
+                className: "block text-sm font-medium text-gray-700",
+                children: "ZIP / Postal code"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                type: "text",
+                name: "postal_code",
+                id: "postal_code",
+                value: data.postal_code,
+                handleChange: onHandleChange,
+                autoComplete: "postal-code",
+                className: "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+            className: "flex items-center justify-end mt-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+              className: "ml-4  bg-tahiti-900 hover:bg-tahiti-800 ",
+              processing: processing,
+              children: "creation d'Un Employee"
+            })
+          })]
+        })
+      })
+    })]
+  });
+}
 
 /***/ }),
 
@@ -67613,8 +67938,12 @@ var map = {
 	"./Auth/VerifyEmail.js": "./resources/js/Pages/Auth/VerifyEmail.js",
 	"./ClientDashboard/Index": "./resources/js/Pages/ClientDashboard/Index.js",
 	"./ClientDashboard/Index.js": "./resources/js/Pages/ClientDashboard/Index.js",
+	"./Dashboard/Clients/Create": "./resources/js/Pages/Dashboard/Clients/Create.js",
+	"./Dashboard/Clients/Create.js": "./resources/js/Pages/Dashboard/Clients/Create.js",
 	"./Dashboard/Clients/Index": "./resources/js/Pages/Dashboard/Clients/Index.js",
 	"./Dashboard/Clients/Index.js": "./resources/js/Pages/Dashboard/Clients/Index.js",
+	"./Dashboard/Clients/components/CreateClientForm": "./resources/js/Pages/Dashboard/Clients/components/CreateClientForm.js",
+	"./Dashboard/Clients/components/CreateClientForm.js": "./resources/js/Pages/Dashboard/Clients/components/CreateClientForm.js",
 	"./Dashboard/Devis/Index": "./resources/js/Pages/Dashboard/Devis/Index.js",
 	"./Dashboard/Devis/Index.js": "./resources/js/Pages/Dashboard/Devis/Index.js",
 	"./Dashboard/Employees/Create": "./resources/js/Pages/Dashboard/Employees/Create.js",
