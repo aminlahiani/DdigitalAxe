@@ -3,36 +3,40 @@ import Button from "@/Components/Button";
 import Input from "@/Components/Input";
 import Label from "@/Components/Label";
 import ValidationErrors from "@/Components/ValidationErrors";
-import { Link, useForm } from "@inertiajs/inertia-react";
+import { Link, useForm, usePage } from "@inertiajs/inertia-react";
+import { Inertia } from "@inertiajs/inertia";
+import DeleteButton from "@/Components/DeleteButton";
 import SelectInput from "@/Components/SelectInput";
+export default function EditClientForm() {
+    const { client , users } = usePage().props;
+    const { data, setData, put, processing, errors, reset } = useForm({
+        user_id: client.data.user_id || "",
+        company : client.data.firstname || "",
+        logo_url : client.data.logo_url || "",
+        phone: client.data.phone || "",
+        firstname :  client.data.firstname || "",
+        lastname : client.data.lastname || "",
+        address:  client.data.address || "",
+        city:  client.data.address || "",
+        region : client.data.region || "",
+        country:   client.data.country || "",
+        postal_code:  client.data.postal_code || "",
 
-export default function CreateClientForm({ users }) {
-    console.log(users);
-
-    const { data, setData, post, processing, errors, reset } = useForm({
-        user_id: "",
-        company : "" ,
-        logo_url : "",
-        phone: "",
-        firstname : '',
-        lastname : '',
-        address: '',
-        city: '',
-        region :'',
-        country:  '',
-        postal_code: '',
     });
-    console.log(data.user_id);
 
     const onHandleChange = (event) => {
         setData(event.target.name, event.target.value);
     };
-
-    const submit = (e) => {
+    function submit(e) {
         e.preventDefault();
+        put(route("client.update", client.data.id));
+    }
 
-        post(route("client.create"));
-    };
+    function destroy() {
+        if (confirm("Are you sure you want to delete this Client?")) {
+            Inertia.delete(route("client.destroy", client.data.id));
+        }
+    }
 
     return (
         <>
@@ -222,9 +226,13 @@ export default function CreateClientForm({ users }) {
                     </div>
               
                 </div>
-                <div className="flex items-center justify-end mt-4">
-                    <Button className="ml-4  bg-tahiti-900 hover:bg-tahiti-800 " processing={processing}>
-                        creation d'Un Employee
+                <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
+                    <DeleteButton onDelete={destroy} >
+                        Supprimer le client 
+                    </DeleteButton>
+
+                    <Button className="inline-flex justify-center bg-indigo-600 hover:bg-indigo-700 " processing={processing}>
+                        Modifier le client
                     </Button>
                 </div>
                 </div>

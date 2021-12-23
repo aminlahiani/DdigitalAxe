@@ -15,10 +15,17 @@ class CreateDevisTable extends Migration
     {
         Schema::create('devis', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email');
-            $table->string('manager');
+
+            $table->string('company');
             $table->string('phone');
+            $table->string('firstname');
+            $table->string('lastname');
+            $table->string('email');
+            $table->string('address', 150)->nullable();
+            $table->string('city', 50)->nullable();
+            $table->string('region', 50)->nullable();
+            $table->string('country', 25)->nullable();
+            $table->string('postal_code', 25)->nullable();
             $table->timestamps();
         });
     }

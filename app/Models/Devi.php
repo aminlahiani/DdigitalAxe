@@ -11,7 +11,14 @@ class Devi extends Model
     protected $fillable = [
         'name',
         'email',
-        'manager',
-        'phone'
+        'company',
+        'phone',
+        'firstname',
+        'lastname',
+        'address',
+        'city',
+        'region',
+        'country',
+        'postal_code'
     ];
 }

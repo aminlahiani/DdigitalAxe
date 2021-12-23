@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\DeviController;
 use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -26,8 +28,8 @@ Route::put('dashboard/services/{service}' , [ServiceController::class, 'update']
 Route::delete('dashboard/services/{service}' , [ServiceController::class, 'destroy'])->name('service-destroy');
 //Route::put('dashboard/services/{service}' , [ServiceController::class, 'update']);
 
-Route::inertia('/dashboard/projects', 'Dashboard/Projects/Index')->name('projects');
-Route::inertia('/dashboard/devis', 'Dashboard/Devis/Index')->name('devis');
+//Route::inertia('/dashboard/projects', 'Dashboard/Projects/Index')->name('projects');
+Route::get('/dashboard/devis', [DeviController::class, 'index'])->name('devis');
 
 
 
@@ -42,11 +44,22 @@ Route::delete('dashboard/users/{user}' , [UserController::class, 'destroy'])->na
 Route::get('/dashboard/employees', [EmployeeController::class, 'index'])->name('employees');
 Route::get('/dashboard/employees/create', [EmployeeController::class, 'create'])->name('employee.create');
 Route::post('/dashboard/employees/create', [EmployeeController::class, 'store']);
-
 Route::get('/dashboard/employees/{employee}/edit', [EmployeeController::class, 'edit'])->name('employee.edit');
 Route::put('dashboard/employees/{employee}' , [EmployeeController::class, 'update'])->name('employee.update');
 Route::delete('dashboard/employees/{employee}' , [EmployeeController::class, 'destroy'])->name('employee.destroy');
 
-
+//clients Route
 Route::get('/dashboard/clients', [ClientController::class, 'index'])->name('clients')->middleware(['auth', "admin", 'verified']);
 Route::get('/dashboard/clients/create', [ClientController::class, 'create'])->name('client.create');
+Route::post('/dashboard/clients/create', [ClientController::class, 'store']);
+Route::get('/dashboard/clients/{client}/edit', [ClientController::class, 'edit'])->name('client.edit');
+Route::put('dashboard/clients/{client}' , [ClientController::class, 'update'])->name('client.update');
+Route::delete('dashboard/clients/{client}' , [ClientController::class, 'destroy'])->name('client.destroy');
+
+
+Route::get('/dashboard/projects', [ProjectController::class, 'index'])->name('projects');
+Route::get('/dashboard/projects/create',  [ProjectController::class, 'create'])->name('project.create');
+Route::post('/dashboard/projects/create',  [ProjectController::class, 'store']);
+Route::get('/dashboard/projects/{project}/edit',  [ProjectController::class, 'edit'])->name('project.edit');
+Route::put('dashboard/projects/{project}' , [ProjectController::class, 'update'])->name('project.update');
+Route::delete('dashboard/projects/{project}' , [ProjectController::class, 'destroy'])->name('project.destroy');

@@ -245,9 +245,9 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
-                  <img
+                <img
                     alt="..."
-                    src="https://enbtsl.com/media/team-2-800x800.jpg"
+                    src="https://enbtsl.com/media/team-1-800x800.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -274,9 +274,9 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
-                  <img
+                <img
                     alt="..."
-                    src="https://enbtsl.com/media/team-3-800x800.jpg"
+                    src="https://enbtsl.com/media/team-1-800x800.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -309,9 +309,9 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
-                  <img
+                <img
                     alt="..."
-                    src="https://enbtsl.com/media/team-4-470x470.png"
+                    src="https://enbtsl.com/media/team-1-800x800.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">

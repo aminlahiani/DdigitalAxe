@@ -3,20 +3,23 @@ import Authenticated from "@/Layouts/Authenticated";
 import { Head, InertiaLink, Link } from "@inertiajs/inertia-react";
 import ProjectTable from "@/Components/Table/ProjectTable";
 import DashboardLayout from "@/Layouts/DashboardLayout";
+import Breadcrumb from "@/Components/Breadcrumb";
 
-function Index() {
+function Index({ projects }) {
     return (
         <DashboardLayout>
-            <div>
-            <h1 className="mb-8 text-3xl font-bold">Prpjects</h1>
+         
+            <Breadcrumb/>
+         
+         <div className=" mt-5">
                 <button className="flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded">
                     <p className="text-sm font-medium leading-none text-white">
-                        <Link href={route("services-create")}>
-                            Ajouter Un Service
+                        <Link href={route("project.create")}>
+                            Ajouter Un Project
                         </Link>
                     </p>
                 </button>
-                <ProjectTable/>
+                <ProjectTable projects={projects}/>
             </div>
         </DashboardLayout>
     );

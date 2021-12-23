@@ -9,7 +9,7 @@ export default ({ className }) => {
             <MainMenuItem text="Clients" link="clients" icon="users" />    
             <MainMenuItem text="Services" link="services" icon="office" />
             <MainMenuItem text="Projects" link="projects" icon="printer" />
-            <MainMenuItem text="Devis" link="dashboard" icon="printer" />
+            <MainMenuItem text="Devis" link="devis" icon="printer" />
         </div>
     );
 };

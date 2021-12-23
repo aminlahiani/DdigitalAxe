@@ -11,7 +11,14 @@ class Service extends Model
     protected $fillable = [
         'name',
         'description',
-        'price'
+        'price',
+ 
     ];
+  
+
+    // public function employees()
+    // {
+    //     return $this->belongsToMany(Employee::class);
+    // }
 
 }
