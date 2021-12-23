@@ -7,29 +7,32 @@ import { Link, useForm } from "@inertiajs/inertia-react";
 import SelectInput from "@/Components/SelectInput";
 import ServicesDevi from "./ServicesDevi";
 
-export default function CreateDeviForm() {
+export default function CreateDeviForm({ services }) {
+    console.log(services);
     const { data, setData, post, processing, errors, reset } = useForm({
-        
+        services: [],
         company: "",
         phone: "",
         firstname: "",
         lastname: "",
-        email : "" ,
+        email: "",
         country: "",
         address: "",
         city: "",
         region: "",
         postal_code: "",
     });
-
+    console.log(services);
     const onHandleChange = (event) => {
         setData(event.target.name, event.target.value);
     };
 
     const submit = (e) => {
         e.preventDefault();
-        post(route('demande-devi'));
+        post(route("demande-devi"));
     };
+
+    console.log(data.services);
 
     return (
         <>
@@ -74,9 +77,11 @@ export default function CreateDeviForm() {
                                 />
                             </div>
 
-                      
                             <div className="col-span-6 sm:col-span-3">
-                                <Label forInput="firstname" value="Nom de Directeur" />
+                                <Label
+                                    forInput="firstname"
+                                    value="Nom de Directeur"
+                                />
 
                                 <Input
                                     type="text"
@@ -90,7 +95,10 @@ export default function CreateDeviForm() {
                                 />
                             </div>
                             <div className="col-span-6 sm:col-span-3">
-                                <Label forInput="lastname" value="Prenom de Directeur" />
+                                <Label
+                                    forInput="lastname"
+                                    value="Prenom de Directeur"
+                                />
 
                                 <Input
                                     type="text"
@@ -216,9 +224,51 @@ export default function CreateDeviForm() {
                                     className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                                 />
                             </div>
-                           <ServicesDevi/>  
-
-                  
+                            {services.map((service) => (
+                                <div
+                                    key={service.id}
+                                    className="flex col-span-6 sm:col-span-3 lg:col-span-2"
+                                >
+                                    <div className="flex items-center h-5">
+                                        <input
+                                            type={"checkbox"}
+                                            onChange={(e) => e.target.checked}
+                                        />
+                                        <input
+                                            type="checkbox"
+                                            name="comments"
+                                            id="comments"
+                                            value={service.id}
+                                            onChange={(e) => {
+                                                if (e.target.checked) {
+                                                    setData("services", [
+                                                        ...data.services,
+                                                        service.id,
+                                                    ]);
+                                                } else {
+                                                    setData(
+                                                        "services",
+                                                        data.services.filter(
+                                                            (s) =>
+                                                                s != service.id
+                                                        )
+                                                    );
+                                                }
+                                            }}
+                                            // autoComplete="postal-code"
+                                            className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
+                                        />
+                                    </div>
+                                    <div className="ml-3 text-sm">
+                                        <label
+                                            htmlFor="comments"
+                                            className="font-medium text-gray-700"
+                                        >
+                                            {service.name}
+                                        </label>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                         <div className="flex items-center justify-end mt-4">
                             <Button

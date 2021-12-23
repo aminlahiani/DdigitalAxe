@@ -1,3 +1,5 @@
+import { Link } from "@inertiajs/inertia-react";
+
 /* This example requires Tailwind CSS v2.0+ */
 const clinets = [
     {
@@ -5,7 +7,7 @@ const clinets = [
     },
    
   ];
-    export default function DeviTable() {
+    export default function DeviTable({devis}) {
       return (
         <div className="flex flex-col">
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -24,9 +26,7 @@ const clinets = [
                                       Société
                                   </th>
                                 
-                                  <th className="font-normal text-left pl-12">
-                                      Budjet
-                                  </th>
+                                 
                                  
                                   <th className="font-normal text-left pl-20">
                                       Services
@@ -42,9 +42,9 @@ const clinets = [
                               </tr>
                   </thead>
                   <tbody className="w-full">
-                              {clinets.map((client) => (
+                              {devis.map((devi) => (
                                   <tr
-                                      key={client.id}
+                                      key={devi.id}
                                       className="h-20 text-sm leading-none text-gray-800 bg-white hover:bg-gray-100 border-b border-t border-gray-100"
                                   >
                                       <td className="px-6 py-4 whitespace-nowrap">
@@ -53,7 +53,7 @@ const clinets = [
                     </td>
                                       <td className="pl-12">
                                           <p className="text-sm font-medium leading-none text-gray-800">
-                                              Ahmed Masmoudi
+                                              {devi.firstname} {devi.lastname}
                                           </p>
                                           <p className="text-xs leading-3 text-gray-600 mt-2">
                                               aahmedmasmoudi@gmailcom
@@ -61,26 +61,18 @@ const clinets = [
                                       </td>
                                       <td className="pl-4 cursor-pointer">
                                           <div className="flex items-center">
-                                              <div className="w-10 h-10">
-                                                  <img
-                                                      className="w-full h-full"
-                                                      src="https://cdn.tuk.dev/assets/templates/olympus/projects.png"
-                                                  />
-                                              </div>
+                                              
                                               <div className="pl-4">
                                                   <p className="font-medium">
-                                                      Art Design{" "}
+                                                      {devi.company}
                                                   </p>
                                                   <p className="text-xs leading-3 text-gray-600 pt-2">
-                                                      +216 25129708
+                                                  {devi.phone}
                                                   </p>
                                               </div>
                                           </div>
                                       </td>
-                                      <td className="px-6 py-4 whitespace-nowrap">
-                      <div className="text-sm text-gray-900">2 000 DTN</div>
-                
-                    </td>
+                   
                                       <td className="pl-20">
                                          
                                           <p className="text-xs leading-3 text-gray-600 mt-2">
@@ -100,10 +92,20 @@ const clinets = [
                                       </td>
                                      
                                       <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                          <a href="#" className="text-indigo-600 hover:text-indigo-900">
-                            Edit
-                          </a>
-                        </td>
+                                            <a
+                                                href="#"
+                                                className="text-indigo-600 hover:text-indigo-900"
+                                            >
+                                                <Link
+                                                    href={route(
+                                                        "devi.edit",
+                                                        devi.id
+                                                    )}
+                                                >
+                                                    view
+                                                </Link>
+                                            </a>
+                                        </td>
                                      
                                   </tr>
                               ))}

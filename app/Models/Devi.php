@@ -21,4 +21,11 @@ class Devi extends Model
         'country',
         'postal_code'
     ];
+    protected $with = ["services"];
+
+    public function services() {
+
+        return $this->belongsToMany(Service::class);
+
+    }
 }

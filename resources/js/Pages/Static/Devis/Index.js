@@ -5,7 +5,7 @@ import Form from "./Form";
 import { Head } from "@inertiajs/inertia-react";
 import CreateDeviForm from "./component/CreateDeviForm";
 
-function Index() {
+function Index(props) {
     return (
         <div>
             <WebsiteLayout>
@@ -16,7 +16,7 @@ function Index() {
                 <div className="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
      
                
-                <CreateDeviForm/>
+                <CreateDeviForm services={props.services}/>
                 </div>
             </WebsiteLayout>
         </div>

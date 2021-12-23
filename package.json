@@ -29,6 +29,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
         "@heroicons/react": "^1.0.5",
+        "@material-tailwind/react": "0.3.4",
         "classnames": "^2.3.1"
     }
 }

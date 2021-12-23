@@ -29,7 +29,7 @@ Route::delete('dashboard/services/{service}' , [ServiceController::class, 'destr
 //Route::put('dashboard/services/{service}' , [ServiceController::class, 'update']);
 
 //Route::inertia('/dashboard/projects', 'Dashboard/Projects/Index')->name('projects');
-Route::get('/dashboard/devis', [DeviController::class, 'index'])->name('devis');
+
 
 
 
@@ -63,3 +63,7 @@ Route::post('/dashboard/projects/create',  [ProjectController::class, 'store']);
 Route::get('/dashboard/projects/{project}/edit',  [ProjectController::class, 'edit'])->name('project.edit');
 Route::put('dashboard/projects/{project}' , [ProjectController::class, 'update'])->name('project.update');
 Route::delete('dashboard/projects/{project}' , [ProjectController::class, 'destroy'])->name('project.destroy');
+ 
+Route::get('/dashboard/devis', [DeviController::class, 'index'])->name('devis');
+//Route::get('/dashboard/devis/view', [DeviController::class, 'view'])->name('devis.view');
+Route::get('/dashboard/devis/{devi}', [DeviController::class, 'edit'])->name('devi.edit');
