@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Resources\ClientResource;
 use App\Models\Client;
+use App\Models\Devi;
+use App\Models\Employee;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -22,6 +24,7 @@ class ClientController extends Controller
             'clients' => $clients
         ]);
     }
+
     public function create()
     {
         $users = User::all();
@@ -85,5 +88,25 @@ class ClientController extends Controller
         $client->delete();
 
         return Redirect::route('clients')->with('success', 'client  deleted.');
+    }
+
+    public function clientdevi()
+    {
+        $devis = Devi::all();
+        $clients = Client::all(); 
+
+        return Inertia::render('ClientDashboard/Devis', [
+            'devis' => $devis,
+            'clients' => $clients
+        ]);
+    }
+    public function clientemployee()
+    {
+        //  $services = Service::all();
+        //$employees = Employee::all()->load("user");
+        $employees = Employee::all();
+        return Inertia::render('ClientDashboard/Employees',[
+            'employees' => $employees
+        ]);
     }
 }

@@ -38,18 +38,23 @@ export default ({ className }) => {
                         link="employeedashboard"
                         icon="dashboard"
                     />
-                       <MainMenuItem
+                    <MainMenuItem
                         text="Client"
                         link="employeeclients"
                         icon="dashboard"
                     />
-                    
                 </div>
             ) : (
                 <div className={className}>
                     <MainMenuItem
-                        text="Dashboard"
-                        link="clientdashboard"
+                        text="Devis"
+                        link="clientdevi"
+                        icon="dashboard"
+                    />
+
+                    <MainMenuItem
+                        text="Employees"
+                        link="clientemployee"
                         icon="dashboard"
                     />
                 </div>

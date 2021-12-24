@@ -50,9 +50,9 @@ Route::post('/demande-devi', [DeviController::class, 'store']);
 Route::get('/employeedashboard', [EmployeeController::class, 'employeeindex'])->name('employeedashboard');
 Route::get('/employeeclients', [EmployeeController::class, 'employeeclient'])->name('employeeclients');
 
-Route::get('/clientdashboard', function () {
-    return Inertia::render('ClientDashboard/Index');
-})->middleware(['auth', 'verified'])->name('clientdashboard');
+Route::get('/clientdevi', [ClientController::class, 'clientdevi'])->name('clientdevi');
+Route::get('/clientemployee', [ClientController::class, 'clientemployee'])->name('clientemployee');
+
 
 Route::get('/dashboard', [UserController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
