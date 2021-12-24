@@ -1,7 +1,6 @@
 import React from "react";
 import Authenticated from "@/Layouts/Authenticated";
 import { Head, Link } from "@inertiajs/inertia-react";
-import EmployeesDashbord from "@/Components/EmployeeLogic/EmployeesDashbord";
 import DevisClients from "@/Components/ClientsLogic/DevisClients";
 import HeaderStats from "@/Components/Table/HeaderStats";
 import UsersTable from "@/Components/Table/UsersTable";

@@ -22,8 +22,8 @@ export default function HeaderStats() {
                   statPercent="3.48"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
-                  statIconName="far fa-chart-bar"
-                  statIconColor="bg-red-500"
+                  statIconName="fas fa-users"
+                  statIconColor="bg-tahiti-900"
                 />
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
@@ -34,8 +34,8 @@ export default function HeaderStats() {
                   statPercent="3.48"
                   statPercentColor="text-red-500"
                   statDescripiron="Since last week"
-                  statIconName="fas fa-chart-pie"
-                  statIconColor="bg-orange-500"
+                  statIconName="fas fa-users"
+                  statIconColor="bg-tahiti-900"
                 />
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
@@ -47,7 +47,7 @@ export default function HeaderStats() {
                   statPercentColor="text-orange-500"
                   statDescripiron="Since yesterday"
                   statIconName="fas fa-users"
-                  statIconColor="bg-pink-500"
+                  statIconColor="bg-tahiti-900"
                 />
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
@@ -58,8 +58,8 @@ export default function HeaderStats() {
                   statPercent="12"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
-                  statIconName="fas fa-percent"
-                  statIconColor="bg-lightBlue-500"
+                  statIconName="far fa-chart-bar"
+                  statIconColor="bg-tahiti-900"
                 />
               </div>
             </div>

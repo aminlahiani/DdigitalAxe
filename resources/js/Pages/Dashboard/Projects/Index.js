@@ -12,14 +12,16 @@ function Index({ projects }) {
             <Breadcrumb/>
          
          <div className=" mt-5">
-                <button className="flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-indigo-700 hover:bg-indigo-600 focus:outline-none rounded">
+                <button className="flex sm:ml-3 mt-4 sm:mt-0 items-end justify-end px-6 py-3 bg-tahiti-800 hover:bg-tahiti-900 focus:outline-none rounded">
                     <p className="text-sm font-medium leading-none text-white">
                         <Link href={route("project.create")}>
                             Ajouter Un Project
                         </Link>
                     </p>
                 </button>
+                <div className="mt-5">
                 <ProjectTable projects={projects}/>
+                </div>
             </div>
         </DashboardLayout>
     );

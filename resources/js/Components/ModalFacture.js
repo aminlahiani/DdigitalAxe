@@ -1,3 +1,5 @@
+import { data } from "autoprefixer";
+
 export default function ModalFacture({ devi }) {
     console.log(devi.data.services);
 
@@ -152,52 +154,13 @@ export default function ModalFacture({ devi }) {
                                                 </div>
                                             </td>
                                             <td className="px-6 py-4 text-sm text-gray-500">
-                                                $20
+                                                ${service.price}
                                             </td>
-                                            <td className="px-6 py-4">$30</td>
+                                            <td className="px-6 py-4">${service.price}</td>
                                         </tr>
                                     ))}
 
-                                    <tr className="whitespace-nowrap">
-                                        <td className="px-6 py-4 text-sm text-gray-500">
-                                            2
-                                        </td>
-                                        <td className="px-6 py-4">
-                                            <div className="text-sm text-gray-900">
-                                                Amazon Brand - Symactive Men's
-                                                Regular Fit T-Shirt
-                                            </div>
-                                        </td>
-                                        <td className="px-6 py-4">
-                                            <div className="text-sm text-gray-500">
-                                                2
-                                            </div>
-                                        </td>
-                                        <td className="px-6 py-4 text-sm text-gray-500">
-                                            $60
-                                        </td>
-                                        <td className="px-6 py-4">$12</td>
-                                    </tr>
-                                    <tr className="border-b-2 whitespace-nowrap">
-                                        <td className="px-6 py-4 text-sm text-gray-500">
-                                            3
-                                        </td>
-                                        <td className="px-6 py-4">
-                                            <div className="text-sm text-gray-900">
-                                                Amazon Brand - Symactive Men's
-                                                Regular Fit T-Shirt
-                                            </div>
-                                        </td>
-                                        <td className="px-6 py-4">
-                                            <div className="text-sm text-gray-500">
-                                                1
-                                            </div>
-                                        </td>
-                                        <td className="px-6 py-4 text-sm text-gray-500">
-                                            $10
-                                        </td>
-                                        <td className="px-6 py-4">$13</td>
-                                    </tr>
+                                   
 
                                     <tr className="">
                                         <td colspan="3"></td>

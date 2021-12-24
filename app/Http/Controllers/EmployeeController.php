@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Resources\EmployeeResource;
+use App\Models\Client;
 use App\Models\Employee;
+use App\Models\Project;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -84,4 +86,20 @@ class EmployeeController extends Controller
 
         return Redirect::route('employees')->with('success', 'employees  deleted.');
     }
+
+
+    public function employeeindex (){
+        $projects = Project::all();
+        return Inertia::render('EmployeeDashboard/Index',[
+            'projects' => $projects
+        ]);
+    }
+
+    public function employeeclient (){
+         $clients = Client::all();
+        return Inertia::render('EmployeeDashboard/Clients',[
+            'clients' => $clients
+        ]);
+    }
+    
 }

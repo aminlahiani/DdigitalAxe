@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DeviController;
+use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\RelationControler;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\UserController;
@@ -46,9 +47,8 @@ Route::post('/demande-devi', [DeviController::class, 'store']);
 
 //Route::inertia('/dashboard/mesdevis', 'Dashboard/Employees/Index')->name('employees');
 //Route::inertia('/dashboard/mesproject', 'Dashboard/Employees/Index')->name('employees');
-Route::get('/employeedashboard', function () {
-    return Inertia::render('EmployeeDashboard/Index');
-})->middleware(['auth', 'verified'])->name('employeedashboard');
+Route::get('/employeedashboard', [EmployeeController::class, 'employeeindex'])->name('employeedashboard');
+Route::get('/employeeclients', [EmployeeController::class, 'employeeclient'])->name('employeeclients');
 
 Route::get('/clientdashboard', function () {
     return Inertia::render('ClientDashboard/Index');
