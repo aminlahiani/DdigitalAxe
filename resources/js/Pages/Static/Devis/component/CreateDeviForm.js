@@ -230,10 +230,7 @@ export default function CreateDeviForm({ services }) {
                                     className="flex col-span-6 sm:col-span-3 lg:col-span-2"
                                 >
                                     <div className="flex items-center h-5">
-                                        <input
-                                            type={"checkbox"}
-                                            onChange={(e) => e.target.checked}
-                                        />
+                                       
                                         <input
                                             type="checkbox"
                                             name="comments"
