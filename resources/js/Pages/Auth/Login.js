@@ -96,13 +96,7 @@ export default function Login({ status, canResetPassword }) {
                             Forgot your password?
                         </Link>
                     )}
-                    <LoadingButton
-              type="submit"
-              loading={processing}
-              className="btn-gray-900"
-            >
-              Login
-            </LoadingButton>
+                  
 
                     <Button className="ml-4" processing={processing}>
                         Log in
@@ -110,15 +104,7 @@ export default function Login({ status, canResetPassword }) {
                 </div>
               
                
-                <button  className="ml-4  inline-flex items-center px-4 py-2 bg-gray-900 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest active:bg-gray-900 transition ease-in-out duration-150" onClick={onHandleChangeadmin}>
-                        Admin
-                    </button>
-                    <button  className="ml-4  inline-flex items-center px-4 py-2 bg-gray-900 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest active:bg-gray-900 transition ease-in-out duration-150" onClick={onHandleChangeEmployee}>
-                        Employee
-                    </button>
-                    <button  className="ml-4  inline-flex items-center px-4 py-2 bg-gray-900 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest active:bg-gray-900 transition ease-in-out duration-150" onClick={onHandleChangeclient}>
-                        client
-                    </button>
+             
             </form>
         </Guest>
     );
