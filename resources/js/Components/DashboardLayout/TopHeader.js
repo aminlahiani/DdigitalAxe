@@ -9,7 +9,13 @@ export default () => {
   return (
     <div className="flex items-center justify-between px-6 py-4 bg-tahiti-900 md:flex-shrink-0 md:w-56 md:justify-center">
       <InertiaLink className="mt-1" href="/">
-        <Logo className="text-white fill-current" width="120" height="28" />
+        {/* <Logo className="text-white fill-current" width="120" height="28" /> */}
+        <img
+                                        className="hidden lg:block h-8 w-auto"
+                                        src="https://enbtsl.com/media/logoda1.svg"
+                                        alt="DigitalAxe"
+                                    />
+                          
       </InertiaLink>
       <div className="relative md:hidden">
         <svg

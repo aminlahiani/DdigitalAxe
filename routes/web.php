@@ -7,7 +7,9 @@ use App\Http\Controllers\RelationControler;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\UserController;
 use Illuminate\Foundation\Application;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\URL;
 use Inertia\Inertia;
 
 /*
@@ -22,7 +24,9 @@ use Inertia\Inertia;
 */
 
 // Static  Pages  route
-
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
 
 Route::inertia('/', 'Static/Home/Index')->name('home');
 Route::inertia('/about', 'Static/About/Index')->name('about');
