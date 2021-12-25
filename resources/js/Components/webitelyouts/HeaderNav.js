@@ -71,8 +71,8 @@ export default function HeaderNav() {
                                             A Propos
                                         </NavLinkWebsite>
                                         <NavLinkWebsite
-                                            href={route("service")}
-                                            active={route().current("service")}
+                                            href={route("services")}
+                                            active={route().current("services")}
                                         >
                                             Services
                                         </NavLinkWebsite>
