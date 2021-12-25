@@ -6,6 +6,7 @@ import Input from '@/Components/Input';
 import Label from '@/Components/Label';
 import ValidationErrors from '@/Components/ValidationErrors';
 import { Head, Link, useForm } from '@inertiajs/inertia-react';
+import LoadingButton from '@/Components/LoadingButton';
 
 export default function Login({ status, canResetPassword }) {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -95,6 +96,13 @@ export default function Login({ status, canResetPassword }) {
                             Forgot your password?
                         </Link>
                     )}
+                    <LoadingButton
+              type="submit"
+              loading={processing}
+              className="btn-indigo"
+            >
+              Login
+            </LoadingButton>
 
                     <Button className="ml-4" processing={processing}>
                         Log in
