@@ -99,7 +99,7 @@ export default function Login({ status, canResetPassword }) {
                     <LoadingButton
               type="submit"
               loading={processing}
-              className="btn-indigo"
+              className="btn-gray-900"
             >
               Login
             </LoadingButton>
