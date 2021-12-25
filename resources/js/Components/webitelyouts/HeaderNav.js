@@ -71,8 +71,8 @@ export default function HeaderNav() {
                                             A Propos
                                         </NavLinkWebsite>
                                         <NavLinkWebsite
-                                            href={route("services")}
-                                            active={route().current("services")}
+                                            href={route("service")}
+                                            active={route().current("service")}
                                         >
                                             Services
                                         </NavLinkWebsite>
@@ -119,8 +119,8 @@ export default function HeaderNav() {
                                 About
                             </ResponsiveNavLink>
                             <ResponsiveNavLink
-                                href={route("services")}
-                                active={route().current("services")}
+                                href={route("service")}
+                                active={route().current("service")}
                             >
                                 Services
                             </ResponsiveNavLink>
