@@ -20,15 +20,11 @@ export default function ClientsTable({ clients }) {
                                     <th className="font-normal text-left pl-12">
                                         Address
                                     </th>
-                                    <th className="font-normal text-left pl-12">
-                                        Devis
-                                    </th>
+                                   
                                     <th className="font-normal text-left pl-20">
                                         Statut
                                     </th>
-                                    <th className="font-normal text-left pl-20">
-                                        Project
-                                    </th>
+                                 
                                     <th className="font-normal text-left pl-20"></th>
                                 </tr>
                             </thead>
@@ -75,23 +71,13 @@ export default function ClientsTable({ clients }) {
                                                 {client.postal_code}
                                             </div>
                                         </td>
-                                        <td className="pl-12">
-                                            <p className="font-medium">2</p>
-                                        </td>
+                                     
                                         <td className="pl-20">
                                             <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                 Active
                                             </span>
                                         </td>
-                                        <td className="pl-20">
-                                            <p className="font-medium">2</p>
-                                            <p className="text-xs leading-3 text-gray-600 mt-2">
-                                                1 finished
-                                            </p>
-                                            <p className="text-xs leading-3 text-gray-600 mt-2">
-                                                1 en coure
-                                            </p>
-                                        </td>
+                                     
                                         <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                             <a
                                                 href="#"
