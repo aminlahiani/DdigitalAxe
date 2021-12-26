@@ -36,12 +36,7 @@ export default function ServicesTable({ services }) {
                                     >
                                         Statut
                                     </th>
-                                    <th
-                                        scope="col"
-                                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                    >
-                                        Employee
-                                    </th>
+                                  
 
                                     <th></th>
                                 </tr>
@@ -73,18 +68,7 @@ export default function ServicesTable({ services }) {
                                                 Disponible
                                             </span>
                                         </td>
-                                        <td className="px-6 py-4 whitespace-nowrap">
-                                            <div className="text-sm text-gray-500">
-                                                amin lahiani
-                                            </div>
-                                            <div className="text-sm text-gray-500">
-                                                foued abid
-                                            </div>
-                                            <div className="text-sm text-gray-500">
-                                                hedi abid
-                                            </div>
-                                        </td>
-
+                                      
                                         <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                             <a
                                                 href="#"
