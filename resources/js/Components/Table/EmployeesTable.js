@@ -61,12 +61,7 @@ export default function EmployeesTable({ employees }) {
                                         Poste
                                     </th>
 
-                                    <th
-                                        scope="col"
-                                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                    >
-                                        Projects
-                                    </th>
+                                   
                                     <th
                                         scope="col"
                                         className="relative px-6 py-3"
@@ -109,20 +104,6 @@ export default function EmployeesTable({ employees }) {
                                         </td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                                         {person.poste}
-                                        </td>
-                                        <td className="px-6 py-4 whitespace-nowrap">
-                                            <div className="text-sm text-gray-900">
-                                                developpeme site web pour
-                                                manelopc
-                                            </div>
-                                            <div className="text-sm text-gray-900">
-                                                developpeme site web pour
-                                                manelopc
-                                            </div>
-                                            <div className="text-sm text-gray-900">
-                                                developpeme site web pour
-                                                manelopc
-                                            </div>
                                         </td>
 
                                         <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
